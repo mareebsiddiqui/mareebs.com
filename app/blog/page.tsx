@@ -4,7 +4,7 @@ import PostCard from "@/components/blog/PostCard";
 import BlogNavbar from "@/components/blog/BlogNavbar";
 import Footer from "@/components/Footer";
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Blog — Areeb Siddiqui",
