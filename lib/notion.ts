@@ -63,18 +63,23 @@ function pageToPostMeta(page: PageObjectResponse): PostMeta {
 }
 
 export async function getPosts(): Promise<PostMeta[]> {
-  const response = await notion.dataSources.query({
-    data_source_id: databaseId,
-    filter: {
-      property: "Status",
-      select: { equals: "Published" },
-    },
-    sorts: [{ property: "Date", direction: "descending" }],
-  });
+  try {
+    const response = await notion.dataSources.query({
+      data_source_id: databaseId,
+      filter: {
+        property: "Status",
+        select: { equals: "Published" },
+      },
+      sorts: [{ property: "Date", direction: "descending" }],
+    });
 
-  return response.results
-    .filter((page): page is PageObjectResponse => "properties" in page)
-    .map(pageToPostMeta);
+    return response.results
+      .filter((page): page is PageObjectResponse => "properties" in page)
+      .map(pageToPostMeta);
+  } catch {
+    console.error("Failed to fetch posts from Notion");
+    return [];
+  }
 }
 
 export async function getPostBySlug(slug: string): Promise<PostMeta | null> {
