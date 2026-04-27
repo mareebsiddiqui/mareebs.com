@@ -43,12 +43,21 @@ export default function Evolution() {
             totalChapters - 1
           );
 
+          // How far into the current chapter's segment (0–1)
+          const segmentProgress =
+            (progress * totalChapters) - chapterIndex;
+          // Before halfway: show previous chapter faded
+          // After halfway: show next chapter faded
+          const nearIndex =
+            segmentProgress < 0.5
+              ? chapterIndex - 1
+              : chapterIndex + 1;
+
           chapters.forEach((ch: Element, i: number) => {
             ch.classList.toggle("active", i === chapterIndex);
             ch.classList.toggle(
               "near",
-              i !== chapterIndex &&
-                (i === chapterIndex - 1 || i === chapterIndex + 1)
+              i === nearIndex && i >= 0 && i < totalChapters
             );
           });
 
