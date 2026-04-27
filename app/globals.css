@@ -795,14 +795,21 @@ img { max-width: 100%; display: block; }
 }
 
 .services__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
 }
 
+.services__row {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .service__card {
+  flex: 1 1 50%;
+  min-width: 0;
   padding: 2.5rem 2rem;
   background: var(--bg-primary);
   border: 1px solid var(--border-subtle);
@@ -810,7 +817,7 @@ img { max-width: 100%; display: block; }
   border-top: 2px solid transparent;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: flex-basis 0.35s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service__card::before {
@@ -855,6 +862,61 @@ img { max-width: 100%; display: block; }
   font-size: 0.9375rem;
   color: var(--text-secondary);
   line-height: 1.65;
+}
+
+/* Expand hovered card, shrink its sibling */
+.services__row:has(.service__card:first-child:hover) .service__card:first-child {
+  flex-basis: 58%;
+}
+.services__row:has(.service__card:first-child:hover) .service__card:last-child {
+  flex-basis: 42%;
+}
+.services__row:has(.service__card:last-child:hover) .service__card:last-child {
+  flex-basis: 58%;
+}
+.services__row:has(.service__card:last-child:hover) .service__card:first-child {
+  flex-basis: 42%;
+}
+
+/* CTA link */
+.service__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  margin-top: 1.25rem;
+  opacity: 0.7;
+  transition: color 0.25s ease, gap 0.25s ease, opacity 0.25s ease;
+}
+
+.service__card:hover .service__cta {
+  opacity: 1;
+  gap: 0.75rem;
+}
+
+.service__cta .arrow {
+  transition: transform 0.25s ease;
+}
+
+.service__card:hover .service__cta .arrow {
+  transform: translateX(4px);
+}
+
+/* Highlighted card (Consulting & Mentoring) */
+.service__card--highlighted {
+  border-left: 2px solid var(--highlight);
+}
+
+.service__card--highlighted .service__number {
+  font-size: 2.25rem;
+  text-shadow: 0 0 20px var(--highlight-muted);
+}
+
+.service__card--highlighted:hover {
+  box-shadow: var(--glow-card), 0 0 20px var(--highlight-muted);
 }
 
 /* ===== CONTACT ===== */
@@ -1150,8 +1212,12 @@ footer {
   }
 
   /* -- Services -- */
-  .services__grid {
-    grid-template-columns: 1fr;
+  .services__row {
+    flex-direction: column;
+  }
+
+  .service__card {
+    flex-basis: 100% !important;
   }
 
   #services .section__title {
