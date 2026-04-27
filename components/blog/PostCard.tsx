@@ -11,7 +11,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
     : "";
 
   return (
-    <a href={`/blog/${post.slug}`} className="post-card reveal">
+    <a href={`/blog/${post.slug}`} className="post-card">
       {post.coverUrl && (
         <div className="post-card__cover">
           <Image

@@ -27,15 +27,7 @@ export default async function BlogIndex() {
         </header>
         <section className="blog__grid container">
           {posts.length === 0 && (
-            <p className="blog__empty">
-              No posts yet. Check back soon.
-              {/* Debug: */}
-              <br />
-              <small style={{color: "var(--text-faint)"}}>
-                DB: {process.env.NOTION_DATABASE_ID ? "set" : "missing"} |
-                Token: {process.env.NOTION_TOKEN ? "set" : "missing"}
-              </small>
-            </p>
+            <p className="blog__empty">No posts yet. Check back soon.</p>
           )}
           {posts.map((post) => (
             <PostCard key={post.id} post={post} />
