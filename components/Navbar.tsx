@@ -89,6 +89,9 @@ export default function Navbar() {
             <a href="#services">Services</a>
           </li>
           <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
