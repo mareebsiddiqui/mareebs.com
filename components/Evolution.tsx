@@ -45,6 +45,11 @@ export default function Evolution() {
 
           chapters.forEach((ch: Element, i: number) => {
             ch.classList.toggle("active", i === chapterIndex);
+            ch.classList.toggle(
+              "near",
+              i !== chapterIndex &&
+                (i === chapterIndex - 1 || i === chapterIndex + 1)
+            );
           });
 
           years.forEach((y: Element, i: number) => {
