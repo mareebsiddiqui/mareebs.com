@@ -76,8 +76,8 @@ export async function getPosts(): Promise<PostMeta[]> {
     return response.results
       .filter((page): page is PageObjectResponse => "properties" in page)
       .map(pageToPostMeta);
-  } catch {
-    console.error("Failed to fetch posts from Notion");
+  } catch (err) {
+    console.error("Failed to fetch posts from Notion:", err);
     return [];
   }
 }
