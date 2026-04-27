@@ -266,6 +266,12 @@ img { max-width: 100%; display: block; }
   line-height: 1.7;
 }
 
+.hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .hero__cta {
   display: inline-flex;
   align-items: center;
@@ -274,6 +280,14 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   color: var(--accent);
   transition: color 0.25s ease, gap 0.25s ease;
+}
+
+.hero__cta--secondary {
+  color: var(--text-muted);
+}
+
+.hero__cta--secondary:hover {
+  color: var(--text-primary);
 }
 
 .hero__cta:hover {

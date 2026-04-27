@@ -39,7 +39,7 @@ export default function Hero() {
           .from(".hero__name", { y: 40, opacity: 0 }, 0.3)
           .from(".hero__tagline", { y: 30, opacity: 0 }, 0.5)
           .from(".hero__summary", { y: 30, opacity: 0 }, 0.7)
-          .from(".hero__cta", { y: 20, opacity: 0 }, 0.9)
+          .from(".hero__actions", { y: 20, opacity: 0 }, 0.9)
           .from(".hero__scroll-hint", { opacity: 0 }, 1.2);
       });
     };
@@ -73,9 +73,14 @@ export default function Hero() {
           Platform Engineer at Wise. 10+ years shipping data platforms, real-time
           systems, and products that move business metrics.
         </p>
-        <a href="#contact" className="hero__cta">
-          Get in touch <span className="arrow">&rarr;</span>
-        </a>
+        <div className="hero__actions">
+          <a href="#contact" className="hero__cta">
+            Get in touch <span className="arrow">&rarr;</span>
+          </a>
+          <a href="/blog" className="hero__cta hero__cta--secondary">
+            Read my writing <span className="arrow">&rarr;</span>
+          </a>
+        </div>
       </div>
       <div className="hero__scroll-hint">
         <span>scroll</span>
