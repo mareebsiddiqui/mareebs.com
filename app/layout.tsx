@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Platform Engineer at Wise. 10+ years shipping data platforms, real-time systems, and products that move business metrics.",
     type: "website",
   },
-  other: { "theme-color": "#050510" },
+  other: { "color-scheme": "dark light" },
 };
 
 export default function RootLayout({
@@ -37,6 +37,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <meta name="theme-color" content="#050510" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)" />
+      </head>
       <body>
         {children}
         <Script
