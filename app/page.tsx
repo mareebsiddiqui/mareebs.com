@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Positioning from "@/components/Positioning";
 import Evolution from "@/components/Evolution";
 import Experience from "@/components/Experience";
 import Achievements from "@/components/Achievements";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Positioning />
         <Evolution />
         <Experience />
         <Achievements />

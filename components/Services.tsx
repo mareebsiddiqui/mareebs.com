@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section id="services">
       <div className="container">
-        <h2 className="section__title">How I can help.</h2>
+        <h2 className="section__title">What I actually do for you.</h2>
 
         <div className="services__grid">
           <div className="services__row">
@@ -13,11 +13,12 @@ export default function Services() {
               <span className="service__number mono">01</span>
               <h3 className="service__name">Full-Stack Development</h3>
               <p className="service__desc">
-                Your MVP needs to ship in weeks, not months&nbsp;&mdash; without
-                the technical debt that slows you down later. I build clean,
+                You asked AI how to build your MVP and got 10 contradicting
+                answers. You can&rsquo;t justify a $15K consulting engagement
+                for a product that doesn&rsquo;t exist yet. I build clean,
                 scalable applications across the stack (React/Next.js +
-                Django/FastAPI) so you get end-to-end delivery from one engineer
-                instead of coordinating three.
+                Django/FastAPI)&nbsp;&mdash; one engineer, end-to-end, shipped
+                in weeks. No ambiguity, no coordinator tax.
               </p>
               <a
                 href={bookingUrl}
@@ -25,7 +26,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a call <span className="arrow">&rarr;</span>
+                Book a free call <span className="arrow">&rarr;</span>
               </a>
             </div>
 
@@ -33,10 +34,11 @@ export default function Services() {
               <span className="service__number mono">02</span>
               <h3 className="service__name">Platform &amp; DevOps Consulting</h3>
               <p className="service__desc">
-                Your team spends weekends firefighting infrastructure instead of
-                building features. I set up CI/CD, Kubernetes, and observability
-                that catch problems before your users do&nbsp;&mdash; so your team
-                ships with confidence and you stop losing sleep over deployments.
+                Your team is firefighting infrastructure every weekend, and
+                AI-generated Kubernetes configs aren&rsquo;t helping. Enterprise
+                consultants want a 3-month engagement just to assess the problem.
+                I set up CI/CD, Kubernetes, and observability that catch problems
+                before your users do&nbsp;&mdash; in days, not quarters.
               </p>
               <a
                 href={bookingUrl}
@@ -44,7 +46,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a call <span className="arrow">&rarr;</span>
+                Book a free call <span className="arrow">&rarr;</span>
               </a>
             </div>
           </div>
@@ -54,10 +56,11 @@ export default function Services() {
               <span className="service__number mono">03</span>
               <h3 className="service__name">Architecture Design</h3>
               <p className="service__desc">
-                Wrong architecture choices now cost you years of migration later.
-                I design systems that match your team size and growth
-                trajectory&nbsp;&mdash; not what&rsquo;s trendy, but what you can
-                actually operate and evolve.
+                ChatGPT told you to use microservices. A consulting firm would
+                tell you the same thing (for $20K). Neither knows your team is
+                4 people. I design systems that match your team size and growth
+                trajectory&nbsp;&mdash; not what&rsquo;s trendy, but what you
+                can actually operate and evolve.
               </p>
               <a
                 href={bookingUrl}
@@ -65,7 +68,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a call <span className="arrow">&rarr;</span>
+                Book a free call <span className="arrow">&rarr;</span>
               </a>
             </div>
 
@@ -73,11 +76,11 @@ export default function Services() {
               <span className="service__number mono">04</span>
               <h3 className="service__name">Code Reviews &amp; Mentoring</h3>
               <p className="service__desc">
-                Reviews that take days, feedback that&rsquo;s vague, juniors who
-                aren&rsquo;t growing. I establish code review standards that
-                stick, pair sessions that teach, and mentoring that turns
-                developers into owners&nbsp;&mdash; without burning out your
-                seniors.
+                AI-generated code reviews miss context. Senior consultants
+                parachute in, deliver a PDF, and leave. I establish code review
+                standards that stick, pair sessions that teach, and mentoring
+                that turns developers into owners&nbsp;&mdash; because I&rsquo;ve
+                done this at 5 companies and seen what actually works.
               </p>
               <a
                 href={bookingUrl}
@@ -85,7 +88,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a call <span className="arrow">&rarr;</span>
+                Book a free call <span className="arrow">&rarr;</span>
               </a>
             </div>
           </div>

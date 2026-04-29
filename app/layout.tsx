@@ -18,13 +18,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Areeb Siddiqui — Platform Engineer",
+  title:
+    "Areeb Siddiqui — Expert Engineering Guidance Without the Enterprise Price Tag",
   description:
-    "Platform Engineer at Wise. 10+ years shipping data platforms, real-time systems, and products that move business metrics.",
+    "Specific, battle-tested engineering answers from 13 years of hands-on experience. Not a chatbot. Not a $10K/month consultancy. The expert middle ground.",
   openGraph: {
-    title: "Areeb Siddiqui — Platform Engineer",
+    title:
+      "Areeb Siddiqui — Expert Engineering Guidance Without the Enterprise Price Tag",
     description:
-      "Platform Engineer at Wise. 10+ years shipping data platforms, real-time systems, and products that move business metrics.",
+      "Specific, battle-tested engineering answers from 13 years of hands-on experience. Not a chatbot. Not a $10K/month consultancy. The expert middle ground.",
     type: "website",
   },
   other: { "color-scheme": "dark light" },

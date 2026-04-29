@@ -14,10 +14,16 @@ export default function Hero() {
       if (typedRef.current) {
         const { default: Typed } = await import("typed.js");
         typed = new Typed(typedRef.current, {
-          strings: ["PLATFORM ENGINEER"],
+          strings: [
+            "AI GAVE YOU A GENERIC ANSWER?",
+            "I GIVE YOU THE SPECIFIC ONE.",
+          ],
           typeSpeed: 50,
+          backSpeed: 30,
+          backDelay: 2000,
           showCursor: true,
           cursorChar: "_",
+          loop: false,
           onComplete: (self: any) => {
             setTimeout(() => {
               if (self.cursor) self.cursor.style.display = "none";
@@ -68,17 +74,20 @@ export default function Hero() {
           <span ref={typedRef}></span>
         </span>
         <h1 className="hero__name">Areeb Siddiqui</h1>
-        <p className="hero__tagline">Building what matters.</p>
+        <p className="hero__tagline">
+          Specific answers. No hallucinations. No enterprise invoice.
+        </p>
         <p className="hero__summary">
-          Platform Engineer at Wise. 10+ years shipping data platforms, real-time
-          systems, and products that move business metrics.
+          AI chatbots guess. Consulting firms charge $10K/month. I give you
+          battle-tested engineering answers from 13 years of shipping production
+          systems&nbsp;&mdash; for $20/hour.
         </p>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
-            Get in touch <span className="arrow">&rarr;</span>
+            Book a free call <span className="arrow">&rarr;</span>
           </a>
-          <a href="/blog" className="hero__cta hero__cta--secondary">
-            Read my writing <span className="arrow">&rarr;</span>
+          <a href="#positioning" className="hero__cta hero__cta--secondary">
+            See how I compare <span className="arrow">&rarr;</span>
           </a>
         </div>
       </div>

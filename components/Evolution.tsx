@@ -119,8 +119,9 @@ export default function Evolution() {
             <p className="evolution__text">
               When <code>&lt;table&gt;</code> was still a layout tool and CSS was
               optional. I started building websites at 11 and became a Microsoft
-              Certified Professional at 13&nbsp;&mdash; the youngest in the room,
-              but not for long.
+              Certified Professional at 13. That head start means my advice comes
+              from over a decade of seeing what actually works in
+              production&nbsp;&mdash; not just what the docs say.
             </p>
           </div>
 
@@ -143,7 +144,8 @@ export default function Evolution() {
               Pitched a startup idea at the Pakistan Startup Cup and made it to
               the national Top 25 out of 15,000+ teams. At 16, I was the youngest
               in the room&nbsp;&mdash; again. That same year, I signed my first
-              freelance client. I stopped waiting for permission to build.
+              freelance client. I learned early that real problems need specific
+              solutions, not generic playbooks.
             </p>
           </div>
 
@@ -167,8 +169,9 @@ export default function Evolution() {
             <p className="evolution__text">
               University by day, freelance by night. Streaming platforms, real-time
               video calling, e-commerce stores, meeting schedulers&nbsp;&mdash;
-              each a different stack, a different problem. I didn&rsquo;t wait for
-              a team. I became one.
+              each a different stack, a different problem. This is why I can give
+              you specific answers across the full stack: I&rsquo;ve built all of
+              it myself.
             </p>
           </div>
 
@@ -192,8 +195,8 @@ spec:
               SWVL and Securiti.ai taught me what production really means. Fixed
               critical payment bugs affecting thousands. Built dead letter queues
               that slashed system errors by 90%. Hit 95% test coverage with TDD.
-              Reliability isn&rsquo;t a feature&nbsp;&mdash; it&rsquo;s the
-              standard.
+              This is production-grade experience&nbsp;&mdash; the kind no chatbot
+              can hallucinate.
             </p>
           </div>
 
@@ -214,9 +217,9 @@ spec:
             <p className="evolution__text">
               Led a 10-member team at ByteCorp&nbsp;&mdash; sub-500ms fleet
               tracking, $4,200 saved per device. Drove 60% revenue growth at
-              Dubizzle. Now at Wise, building analytics platform
-              infrastructure&nbsp;&mdash; automated migrations, zero-downtime
-              tooling. Every line of code moves a metric.
+              Dubizzle. Now at Wise, building analytics platform infrastructure.
+              Every year adds more battle scars, more patterns, more confidence in
+              the answers I give you.
             </p>
           </div>
         </div>

@@ -2,8 +2,12 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container contact__inner">
-        <h2 className="contact__headline reveal">Let&rsquo;s build something.</h2>
-        <p className="contact__sub reveal">Reach out to start a conversation.</p>
+        <h2 className="contact__headline reveal">Stop guessing. Start shipping.</h2>
+        <p className="contact__sub reveal">
+          Book a free 45-minute call. No pitch deck, no sales
+          team&nbsp;&mdash; just a direct conversation about your engineering
+          challenge.
+        </p>
         <div className="contact__actions reveal">
           <a
             href="https://tidycal.com/mohammadareebs/45-minute-prospect-discussion"
@@ -11,7 +15,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="contact__book"
           >
-            Book a call <span className="arrow">&rarr;</span>
+            Book a free call <span className="arrow">&rarr;</span>
           </a>
           <a href="mailto:mohammadareebs@gmail.com" className="contact__email">
             mohammadareebs@gmail.com

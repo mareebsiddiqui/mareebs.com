@@ -77,13 +77,13 @@ export default function Navbar() {
         </button>
         <ul className="nav__links">
           <li>
+            <a href="#positioning">Why Me</a>
+          </li>
+          <li>
             <a href="#evolution">Story</a>
           </li>
           <li>
             <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#services">Services</a>
