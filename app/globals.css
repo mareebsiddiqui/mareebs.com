@@ -1751,12 +1751,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .experience__grid .experience__card:last-child {
-    grid-column: 1 / -1;
-    max-width: 50%;
-    margin: 0 auto;
-  }
-
   .portfolio__grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1901,10 +1895,6 @@ footer {
   /* -- Experience -- */
   .experience__grid {
     grid-template-columns: 1fr;
-  }
-
-  .experience__grid .experience__card:last-child {
-    max-width: 100%;
   }
 
   #experience .section__title {

@@ -59,6 +59,17 @@ export default function Experience() {
               <li><strong>90%</strong> error rate reduction</li>
             </ul>
           </div>
+
+          <div className="experience__card reveal">
+            <span className="experience__date mono">2014 &mdash; Present</span>
+            <h3 className="experience__company">Freelance</h3>
+            <span className="experience__role">Full-Stack Engineer &amp; Consultant</span>
+            <ul className="experience__metrics">
+              <li><strong>20+</strong> products shipped end-to-end</li>
+              <li>MVPs, streaming platforms, e-commerce, real-time systems</li>
+              <li><strong>10+ years</strong> solving problems across every stack</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
