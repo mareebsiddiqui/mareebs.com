@@ -100,7 +100,7 @@ export default function Evolution() {
         </div>
 
         <div className="evolution__content">
-          {/* Chapter 1: Certified at 13 */}
+          {/* Chapter 1: Microsoft Certified at 13 */}
           <div className="evolution__chapter" data-chapter="1">
             <div className="evolution__code">
               <pre className="mono">{`<table width="100%" border="1">
@@ -115,7 +115,7 @@ export default function Evolution() {
 <!-- built my first site at 11 -->
 <!-- certified by Microsoft at 13 -->`}</pre>
             </div>
-            <h3 className="evolution__title">Certified at 13</h3>
+            <h3 className="evolution__title">Microsoft Certified at 13</h3>
             <p className="evolution__text">
               When <code>&lt;table&gt;</code> was still a layout tool and CSS was
               optional. I started building websites at 11 and became a Microsoft
@@ -200,7 +200,7 @@ spec:
             </p>
           </div>
 
-          {/* Chapter 5: Led 10. Shipped 3. */}
+          {/* Chapter 5: 10-Person Team. 60% Revenue Growth. */}
           <div className="evolution__chapter" data-chapter="5">
             <div className="evolution__code">
               <pre className="mono">{`┌─ metrics.dashboard ────────────┐
@@ -213,7 +213,7 @@ spec:
 // wise: analytics platform infra
 // the needle keeps moving.`}</pre>
             </div>
-            <h3 className="evolution__title">Led 10. Shipped 3.</h3>
+            <h3 className="evolution__title">10-Person Team. 60% Revenue Growth.</h3>
             <p className="evolution__text">
               Led a 10-member team at ByteCorp&nbsp;&mdash; sub-500ms fleet
               tracking, $4,200 saved per device. Drove 60% revenue growth at
