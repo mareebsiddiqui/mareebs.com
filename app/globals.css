@@ -273,16 +273,16 @@ img { max-width: 100%; display: block; }
 }
 
 .hero__portrait {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero__portrait img {
-  width: 140px;
-  height: 140px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--border-subtle);
-  box-shadow: 0 0 40px var(--accent-muted);
+  box-shadow: 0 0 30px var(--accent-muted);
   margin: 0 auto;
 }
 
@@ -292,7 +292,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   min-height: 1.3em;
 }
 
@@ -301,28 +301,54 @@ img { max-width: 100%; display: block; }
 }
 
 .hero__name {
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
   font-weight: 800;
   letter-spacing: -0.04em;
   line-height: 1.05;
   color: var(--text-primary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero__tagline {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
   font-weight: 300;
   letter-spacing: -0.01em;
   color: var(--text-secondary);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.hero__summary {
-  font-size: 1.125rem;
-  color: var(--text-muted);
-  max-width: 540px;
-  margin: 0 auto 2rem;
-  line-height: 1.7;
+.hero__stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero__stat {
+  text-align: center;
+}
+
+.hero__stat-value {
+  display: block;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.hero__stat-label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.hero__stat-company {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .hero__actions {
@@ -710,42 +736,6 @@ img { max-width: 100%; display: block; }
   width: 100%;
 }
 
-/* ===== ACHIEVEMENTS ===== */
-#achievements {
-  padding: clamp(3rem, 6vh, 5rem) 0;
-}
-
-.achievements__row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-
-.achievements__item {
-  text-align: center;
-}
-
-.achievements__value {
-  display: block;
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--highlight);
-  letter-spacing: -0.02em;
-  margin-bottom: 0.25rem;
-}
-
-.achievements__label {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
-
-.achievements__divider {
-  width: 1px;
-  height: 40px;
-  background: var(--border-subtle);
-}
 
 /* ===== PORTFOLIO ===== */
 #portfolio {
@@ -1656,14 +1646,6 @@ footer {
     margin-bottom: 2.5rem;
   }
 
-  /* -- Achievements -- */
-  .achievements__row {
-    gap: 2rem;
-  }
-
-  .achievements__divider {
-    display: none;
-  }
 
   /* -- Portfolio -- */
   .portfolio__grid {
@@ -1720,11 +1702,15 @@ footer {
 
 @media (max-width: 480px) {
   .hero__name {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(1.75rem, 8vw, 2.25rem);
   }
 
-  .hero__summary {
-    font-size: 1rem;
+  .hero__stats {
+    gap: 1.5rem;
+  }
+
+  .hero__stat-value {
+    font-size: 1.5rem;
   }
 
   .experience__card {

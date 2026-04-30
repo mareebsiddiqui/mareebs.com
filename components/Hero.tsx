@@ -44,7 +44,7 @@ export default function Hero() {
         tl.from(".hero__portrait", { scale: 0.8, opacity: 0 }, 0.1)
           .from(".hero__name", { y: 40, opacity: 0 }, 0.3)
           .from(".hero__tagline", { y: 30, opacity: 0 }, 0.5)
-          .from(".hero__summary", { y: 30, opacity: 0 }, 0.7)
+          .from(".hero__stats", { y: 30, opacity: 0 }, 0.7)
           .from(".hero__actions", { y: 20, opacity: 0 }, 0.9)
           .from(".hero__scroll-hint", { opacity: 0 }, 1.2);
       });
@@ -77,14 +77,25 @@ export default function Hero() {
           Areeb Siddiqui - Fractional CTO
         </h1>
         <p className="hero__tagline">
-          Ship faster and grow revenue without hiring a full-time CTO.
+          Full CTO capability. No equity. No six-figure salary. Just results.
         </p>
-        <p className="hero__summary">
-          60% revenue growth at Dubizzle. 90% fewer production errors at SWVL.
-          $4,200/year saved per device at ByteCorp. I&rsquo;ve spent 13 years
-          shipping systems at 5 companies - now I bring that
-          experience to your startup as a fractional CTO.
-        </p>
+        <div className="hero__stats">
+          <div className="hero__stat">
+            <span className="hero__stat-value mono">60%</span>
+            <span className="hero__stat-label">Revenue Growth</span>
+            <span className="hero__stat-company mono">Dubizzle</span>
+          </div>
+          <div className="hero__stat">
+            <span className="hero__stat-value mono">90%</span>
+            <span className="hero__stat-label">Fewer Production Errors</span>
+            <span className="hero__stat-company mono">SWVL</span>
+          </div>
+          <div className="hero__stat">
+            <span className="hero__stat-value mono">$4,200/yr</span>
+            <span className="hero__stat-label">Saved Per Device</span>
+            <span className="hero__stat-company mono">ByteCorp</span>
+          </div>
+        </div>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
             Book a strategy call <span className="arrow">&rarr;</span>
