@@ -28,6 +28,22 @@ export const metadata: Metadata = {
     description:
       "Specific, battle-tested engineering answers from 13 years of hands-on experience. Not a chatbot. Not a $10K/month consultancy. The expert middle ground.",
     type: "website",
+    images: [
+      {
+        url: "https://mareebs.com/img/me.jpeg",
+        width: 140,
+        height: 140,
+        alt: "Areeb Siddiqui",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title:
+      "Areeb Siddiqui — Expert Engineering Guidance Without the Enterprise Price Tag",
+    description:
+      "Specific, battle-tested engineering answers from 13 years of hands-on experience. Not a chatbot. Not a $10K/month consultancy. The expert middle ground.",
+    images: ["https://mareebs.com/img/me.jpeg"],
   },
   other: { "color-scheme": "dark light" },
 };
