@@ -1,227 +1,50 @@
-"use client";
-
-import { useEffect, useRef } from "react";
-
 export default function Evolution() {
-  const sectionRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const section = sectionRef.current;
-    if (!section) return;
-
-    const chapters = section.querySelectorAll(".evolution__chapter");
-    const years = section.querySelectorAll(".evolution__year");
-    const dot = section.querySelector(".evolution__dot") as HTMLElement | null;
-
-    if (chapters.length === 0) return;
-
-    // On mobile, chapters are already visible via CSS
-    if (window.innerWidth <= 768) return;
-
-    let scrollTriggerInstance: any;
-
-    const init = async () => {
-      const gsapMod = await import("gsap");
-      const { ScrollTrigger } = await import("gsap/ScrollTrigger");
-      const gsap = gsapMod.default;
-
-      gsap.registerPlugin(ScrollTrigger);
-
-      chapters[0].classList.add("active");
-      if (years[0]) years[0].classList.add("active");
-
-      scrollTriggerInstance = ScrollTrigger.create({
-        trigger: section,
-        start: "top top",
-        end: "bottom bottom",
-        invalidateOnRefresh: true,
-        onUpdate: (self: any) => {
-          const progress = self.progress;
-          const totalChapters = chapters.length;
-          const chapterIndex = Math.min(
-            Math.floor(progress * totalChapters),
-            totalChapters - 1
-          );
-
-          // How far into the current chapter's segment (0–1)
-          const segmentProgress =
-            (progress * totalChapters) - chapterIndex;
-          // Before halfway: show previous chapter faded
-          // After halfway: show next chapter faded
-          const nearIndex =
-            segmentProgress < 0.5
-              ? chapterIndex - 1
-              : chapterIndex + 1;
-
-          chapters.forEach((ch: Element, i: number) => {
-            ch.classList.toggle("active", i === chapterIndex);
-            ch.classList.toggle(
-              "near",
-              i === nearIndex && i >= 0 && i < totalChapters
-            );
-          });
-
-          years.forEach((y: Element, i: number) => {
-            y.classList.toggle("active", i === chapterIndex);
-          });
-
-          if (dot) {
-            dot.style.top = `${progress * 100}%`;
-          }
-        },
-      });
-
-      // Refresh after load to handle scroll restoration
-      window.addEventListener("load", () => ScrollTrigger.refresh());
-      setTimeout(() => ScrollTrigger.refresh(), 500);
-    };
-
-    init();
-
-    return () => {
-      scrollTriggerInstance?.kill();
-    };
-  }, []);
+  const milestones = [
+    {
+      year: "2013",
+      title: "Microsoft Certified at 13",
+      text: "Building websites at 11. Certified by Microsoft at 13. Over a decade head start on production experience.",
+    },
+    {
+      year: "2016",
+      title: "National Finalist at 16",
+      text: "Top 25 out of 15,000+ teams at Pakistan Startup Cup. Signed first freelance client the same year.",
+    },
+    {
+      year: "2020",
+      title: "7 Products Shipped Solo",
+      text: "Streaming platforms, video calling, e-commerce. University by day, freelance by night. Full-stack range.",
+    },
+    {
+      year: "2022",
+      title: "Trusted With Payments",
+      text: "SWVL and Securiti.ai. 90% error reduction. 95% test coverage. Production-grade systems that handle real money.",
+    },
+    {
+      year: "2026",
+      title: "Leading at Scale",
+      text: "60% revenue growth at Dubizzle. $4,200/device savings at ByteCorp. Now building analytics infrastructure at Wise.",
+    },
+  ];
 
   return (
-    <section id="evolution" ref={sectionRef}>
-      <div className="evolution__sticky">
-        <div className="evolution__progress">
-          <div className="evolution__years">
-            <span className="evolution__year" data-chapter="1">2013</span>
-            <span className="evolution__year" data-chapter="2">2016</span>
-            <span className="evolution__year" data-chapter="3">2020</span>
-            <span className="evolution__year" data-chapter="4">2022</span>
-            <span className="evolution__year" data-chapter="5">2026</span>
-          </div>
-          <div className="evolution__line">
-            <div className="evolution__dot"></div>
-          </div>
-        </div>
+    <section id="evolution">
+      <div className="container">
+        <h2 className="section__title">How I got here.</h2>
 
-        <div className="evolution__content">
-          {/* Chapter 1: Microsoft Certified at 13 */}
-          <div className="evolution__chapter" data-chapter="1">
-            <div className="evolution__code">
-              <pre className="mono">{`<table width="100%" border="1">
-  <tr>
-    <td colspan="2">Header</td>
-  </tr>
-  <tr>
-    <td width="20%">Nav</td>
-    <td>Content goes here</td>
-  </tr>
-</table>
-<!-- built my first site at 11 -->
-<!-- certified by Microsoft at 13 -->`}</pre>
+        <div className="timeline">
+          {milestones.map((m, i) => (
+            <div className="timeline__item reveal" key={i}>
+              <div className="timeline__marker">
+                <span className="timeline__year mono">{m.year}</span>
+                <span className="timeline__dot"></span>
+              </div>
+              <div className="timeline__content">
+                <h3 className="timeline__title">{m.title}</h3>
+                <p className="timeline__text">{m.text}</p>
+              </div>
             </div>
-            <h3 className="evolution__title">Microsoft Certified at 13</h3>
-            <p className="evolution__text">
-              When <code>&lt;table&gt;</code> was still a layout tool and CSS was
-              optional. I started building websites at 11 and became a Microsoft
-              Certified Professional at 13. That head start means my advice comes
-              from over a decade of seeing what actually works in
-              production&nbsp;- not just what the docs say.
-            </p>
-          </div>
-
-          {/* Chapter 2: Top 25 at 16 */}
-          <div className="evolution__chapter" data-chapter="2">
-            <div className="evolution__code">
-              <pre className="mono">{`┌─ Pakistan Startup Cup ─────────┐
-│                                │
-│  NATIONAL FINALISTS            │
-│  Top 25 out of 15,000+         │
-│                                │
-│  Age: 16                       │
-│  Status: youngest team         │
-│  Next:   first client signed   │
-│                                │
-└────────────────────────────────┘`}</pre>
-            </div>
-            <h3 className="evolution__title">Top 25 at 16</h3>
-            <p className="evolution__text">
-              Pitched a startup idea at the Pakistan Startup Cup and made it to
-              the national Top 25 out of 15,000+ teams. At 16, I was the youngest
-              in the room&nbsp;- again. That same year, I signed my first
-              freelance client. I learned early that real problems need specific
-              solutions, not generic playbooks.
-            </p>
-          </div>
-
-          {/* Chapter 3: 7 Products. Solo. */}
-          <div className="evolution__chapter" data-chapter="3">
-            <div className="evolution__code">
-              <pre className="mono">{`const Portfolio = () => {
-  const projects = [
-    "Streaming Platform",
-    "Live Video Calling",
-    "E-commerce Store",
-    "Meeting Scheduler",
-    "Restaurant Search",
-    "Skill Barter App",
-  ];
-  // shipped: all of them. solo.
-  return <Ship count={7} />;
-};`}</pre>
-            </div>
-            <h3 className="evolution__title">7 Products. Solo.</h3>
-            <p className="evolution__text">
-              University by day, freelance by night. Streaming platforms, real-time
-              video calling, e-commerce stores, meeting schedulers&nbsp;-
-              each a different stack, a different problem. This is why I can give
-              you specific answers across the full stack: I&rsquo;ve built all of
-              it myself.
-            </p>
-          </div>
-
-          {/* Chapter 4: Trusted With Payments */}
-          <div className="evolution__chapter" data-chapter="4">
-            <div className="evolution__code">
-              <pre className="mono">{`apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: payment-service
-spec:
-  replicas: 3
-  strategy:
-    type: RollingUpdate
-  # error_rate:    90% ↓
-  # test_coverage: 95%
-  # sonarqube:     A rating`}</pre>
-            </div>
-            <h3 className="evolution__title">Trusted With Payments</h3>
-            <p className="evolution__text">
-              SWVL and Securiti.ai taught me what production really means. Fixed
-              critical payment bugs affecting thousands. Built dead letter queues
-              that slashed system errors by 90%. Hit 95% test coverage with TDD.
-              This is production-grade experience&nbsp;- the kind no chatbot
-              can hallucinate.
-            </p>
-          </div>
-
-          {/* Chapter 5: 10-Person Team. 60% Revenue Growth. */}
-          <div className="evolution__chapter" data-chapter="5">
-            <div className="evolution__code">
-              <pre className="mono">{`┌─ metrics.dashboard ────────────┐
-│  revenue      ████████░░  +60% │
-│  api_speed    ██████████  -40% │
-│  lead_gen     ███████░░░  +30% │
-│  latency      ██████████ <200ms│
-│  cost/device  ██████░░░░ -$4.2K│
-└────────────────────────────────┘
-// wise: analytics platform infra
-// the needle keeps moving.`}</pre>
-            </div>
-            <h3 className="evolution__title">10-Person Team. 60% Revenue Growth.</h3>
-            <p className="evolution__text">
-              Led a 10-member team at ByteCorp&nbsp;- sub-500ms fleet
-              tracking, $4,200 saved per device. Drove 60% revenue growth at
-              Dubizzle. Now at Wise, building analytics platform infrastructure.
-              Every year adds more battle scars, more patterns, more confidence in
-              the answers I give you.
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </section>
