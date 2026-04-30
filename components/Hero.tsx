@@ -77,7 +77,7 @@ export default function Hero() {
           Areeb Siddiqui - Fractional CTO
         </h1>
         <p className="hero__tagline">
-          Full CTO capability. No equity. No six-figure salary. Just results.
+          Ship faster and grow revenue - without the $300K salary.
         </p>
         <div className="hero__stats">
           <div className="hero__stat">
