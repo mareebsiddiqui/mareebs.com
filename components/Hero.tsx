@@ -15,8 +15,8 @@ export default function Hero() {
         const { default: Typed } = await import("typed.js");
         typed = new Typed(typedRef.current, {
           strings: [
-            "AI GAVE YOU A GENERIC ANSWER?",
-            "I GIVE YOU THE SPECIFIC ONE.",
+            "YOUR STARTUP NEEDS A CTO.",
+            "YOU DON'T NEED TO HIRE ONE.",
           ],
           typeSpeed: 50,
           backSpeed: 30,
@@ -73,21 +73,24 @@ export default function Hero() {
         <span className="hero__label mono">
           <span ref={typedRef}></span>
         </span>
-        <h1 className="hero__name">Areeb Siddiqui</h1>
+        <h1 className="hero__name">
+          Areeb Siddiqui &mdash; Fractional CTO
+        </h1>
         <p className="hero__tagline">
-          Specific answers. No hallucinations. No enterprise invoice.
+          Ship faster and grow revenue without hiring a full-time CTO.
         </p>
         <p className="hero__summary">
-          AI chatbots guess. Consulting firms charge $10K/month. I give you
-          battle-tested engineering answers from 13 years of shipping production
-          systems&nbsp;&mdash; for $20/hour.
+          60% revenue growth at Dubizzle. 90% fewer production errors at SWVL.
+          $4,200/year saved per device at ByteCorp. I&rsquo;ve spent 13 years
+          shipping systems at 5 companies&nbsp;&mdash; now I bring that
+          experience to your startup as a fractional CTO.
         </p>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
-            Book a free call <span className="arrow">&rarr;</span>
+            Book a strategy call <span className="arrow">&rarr;</span>
           </a>
           <a href="#positioning" className="hero__cta hero__cta--secondary">
-            See how I compare <span className="arrow">&rarr;</span>
+            See proven results <span className="arrow">&rarr;</span>
           </a>
         </div>
       </div>

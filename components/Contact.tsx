@@ -2,11 +2,14 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container contact__inner">
-        <h2 className="contact__headline reveal">Stop guessing. Start shipping.</h2>
+        <h2 className="contact__headline reveal">
+          Let&rsquo;s find the revenue you&rsquo;re leaving on the table.
+        </h2>
         <p className="contact__sub reveal">
-          Book a free 45-minute call. No pitch deck, no sales
-          team&nbsp;&mdash; just a direct conversation about your engineering
-          challenge.
+          Book a 45-minute strategy call. We&rsquo;ll map your biggest
+          technical bottleneck and how to turn it into a growth lever. No pitch
+          deck, no sales team&nbsp;&mdash; just a direct conversation with a
+          senior engineer who&rsquo;s done this at 5 companies.
         </p>
         <div className="contact__actions reveal">
           <a
@@ -15,8 +18,11 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="contact__book"
           >
-            Book a free call <span className="arrow">&rarr;</span>
+            Book a strategy call <span className="arrow">&rarr;</span>
           </a>
+          <span className="contact__availability">
+            Currently accepting 2 new clients.
+          </span>
           <a href="mailto:mohammadareebs@gmail.com" className="contact__email">
             mohammadareebs@gmail.com
           </a>

@@ -659,22 +659,11 @@ img { max-width: 100%; display: block; }
   background: rgba(255, 69, 58, 0.12);
 }
 
-.positioning__price {
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border-subtle);
-}
-
-.positioning__cost {
-  display: block;
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 0.25rem;
-}
-
-.positioning__caveat {
+.contact__availability {
   font-size: 0.8125rem;
-  color: var(--text-muted);
+  color: var(--highlight);
+  margin-top: 0.75rem;
+  letter-spacing: 0.02em;
 }
 
 .positioning__cta {

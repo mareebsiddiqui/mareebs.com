@@ -4,10 +4,10 @@ export default function Positioning() {
   return (
     <section id="positioning">
       <div className="container">
-        <h2 className="section__title">You have three options.</h2>
+        <h2 className="section__title">Why founders choose to work with me.</h2>
         <p className="section__subtitle">
-          For engineering decisions that actually matter, here&rsquo;s what each
-          one gives you.
+          Not all engineering guidance is created equal. Here&rsquo;s the
+          difference in outcomes.
         </p>
 
         <div className="positioning__grid">
@@ -18,28 +18,21 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Hallucinate confidently&nbsp;&mdash; you can&rsquo;t tell
-                what&rsquo;s wrong
+                Generic answers that miss your business context
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Generic answers with no context on your stack
+                No accountability when advice breaks production
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                You still spend hours validating the output
+                Hours lost validating and debugging output
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                No accountability if advice breaks production
+                Zero understanding of your team, budget, or timeline
               </li>
             </ul>
-            <div className="positioning__price">
-              <span className="positioning__cost mono">$0 &ndash; $20/mo</span>
-              <span className="positioning__caveat">
-                + hours of your time researching
-              </span>
-            </div>
           </div>
 
           {/* Work With Areeb (highlighted) */}
@@ -50,37 +43,30 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Specific answers from 13 years of production experience
+                60% revenue growth, 90% error reduction&nbsp;&mdash; results
+                I&rsquo;ve already delivered
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Context-aware&nbsp;&mdash; understands your stack, team size,
-                constraints
+                Decisions shaped by your stack, team size, and growth stage
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Direct access&nbsp;&mdash; no account managers, no layers
+                Direct access to a senior engineer&nbsp;&mdash; no layers, no
+                handoffs
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Accountable&nbsp;&mdash; I stand behind every recommendation
+                Accountable partner who ships alongside your team
               </li>
             </ul>
-            <div className="positioning__price">
-              <span className="positioning__cost mono">
-                $20/hr or $500/mo
-              </span>
-              <span className="positioning__caveat">
-                Flat rates. No surprises.
-              </span>
-            </div>
             <a
               href="https://tidycal.com/mohammadareebs/45-minute-prospect-discussion"
               target="_blank"
               rel="noopener noreferrer"
               className="positioning__cta"
             >
-              Book a free call <span className="arrow">&rarr;</span>
+              Book a strategy call <span className="arrow">&rarr;</span>
             </a>
           </div>
 
@@ -89,10 +75,6 @@ export default function Positioning() {
             <span className="positioning__icon mono">$$$</span>
             <h3 className="positioning__name">Consulting Firms</h3>
             <ul className="positioning__traits">
-              <li className="positioning__trait positioning__trait--negative">
-                <span className="positioning__marker">&times;</span>
-                $5K &ndash; $25K/month retainers
-              </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
                 Junior consultants do the actual work
@@ -105,13 +87,11 @@ export default function Positioning() {
                 <span className="positioning__marker">&times;</span>
                 One-size-fits-all frameworks, not your reality
               </li>
+              <li className="positioning__trait positioning__trait--negative">
+                <span className="positioning__marker">&times;</span>
+                Long contracts with slow feedback loops
+              </li>
             </ul>
-            <div className="positioning__price">
-              <span className="positioning__cost mono">
-                $5K &ndash; $25K/mo
-              </span>
-              <span className="positioning__caveat">+ long-term contracts</span>
-            </div>
           </div>
         </div>
       </div>

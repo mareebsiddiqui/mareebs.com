@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section id="services">
       <div className="container">
-        <h2 className="section__title">What I actually do for you.</h2>
+        <h2 className="section__title">How I drive results.</h2>
 
         <div className="services__grid">
           <div className="services__row">
@@ -13,12 +13,10 @@ export default function Services() {
               <span className="service__number mono">01</span>
               <h3 className="service__name">Full-Stack Development</h3>
               <p className="service__desc">
-                You asked AI how to build your MVP and got 10 contradicting
-                answers. You can&rsquo;t justify a $15K consulting engagement
-                for a product that doesn&rsquo;t exist yet. I build clean,
-                scalable applications across the stack (React/Next.js +
-                Django/FastAPI)&nbsp;&mdash; one engineer, end-to-end, shipped
-                in weeks. No ambiguity, no coordinator tax.
+                Ship your MVP in weeks, not quarters. I build production-ready
+                applications across the full stack&nbsp;&mdash; one senior
+                engineer, end-to-end. No coordinator tax, no rework. You get a
+                product that&rsquo;s built to grow from day one.
               </p>
               <a
                 href={bookingUrl}
@@ -26,19 +24,18 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a free call <span className="arrow">&rarr;</span>
+                Book a strategy call <span className="arrow">&rarr;</span>
               </a>
             </div>
 
             <div className="service__card reveal">
               <span className="service__number mono">02</span>
-              <h3 className="service__name">Platform &amp; DevOps Consulting</h3>
+              <h3 className="service__name">Platform &amp; DevOps</h3>
               <p className="service__desc">
-                Your team is firefighting infrastructure every weekend, and
-                AI-generated Kubernetes configs aren&rsquo;t helping. Enterprise
-                consultants want a 3-month engagement just to assess the problem.
-                I set up CI/CD, Kubernetes, and observability that catch problems
-                before your users do&nbsp;&mdash; in days, not quarters.
+                Stop losing weekends to infrastructure fires. I set up CI/CD,
+                Kubernetes, and observability that catch problems before your
+                users do. Teams I&rsquo;ve worked with saw 90% fewer production
+                errors and deployed with confidence instead of anxiety.
               </p>
               <a
                 href={bookingUrl}
@@ -46,7 +43,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a free call <span className="arrow">&rarr;</span>
+                Book a strategy call <span className="arrow">&rarr;</span>
               </a>
             </div>
           </div>
@@ -56,11 +53,11 @@ export default function Services() {
               <span className="service__number mono">03</span>
               <h3 className="service__name">Architecture Design</h3>
               <p className="service__desc">
-                ChatGPT told you to use microservices. A consulting firm would
-                tell you the same thing (for $20K). Neither knows your team is
-                4 people. I design systems that match your team size and growth
-                trajectory&nbsp;&mdash; not what&rsquo;s trendy, but what you
-                can actually operate and evolve.
+                Get a system architecture designed for your actual
+                team&nbsp;&mdash; not what&rsquo;s trending on Hacker News.
+                I&rsquo;ve designed systems for 4-person startups and 10-person
+                teams, optimizing for the growth stage you&rsquo;re at today
+                and the scale you&rsquo;ll need tomorrow.
               </p>
               <a
                 href={bookingUrl}
@@ -68,7 +65,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a free call <span className="arrow">&rarr;</span>
+                Book a strategy call <span className="arrow">&rarr;</span>
               </a>
             </div>
 
@@ -76,11 +73,11 @@ export default function Services() {
               <span className="service__number mono">04</span>
               <h3 className="service__name">Code Reviews &amp; Mentoring</h3>
               <p className="service__desc">
-                AI-generated code reviews miss context. Senior consultants
-                parachute in, deliver a PDF, and leave. I establish code review
-                standards that stick, pair sessions that teach, and mentoring
-                that turns developers into owners&nbsp;&mdash; because I&rsquo;ve
-                done this at 5 companies and seen what actually works.
+                Turn your developers into technical owners. I run pair sessions
+                that teach, establish code review standards that stick, and
+                mentor engineers into leaders. The result: a self-sufficient
+                team that ships confidently&nbsp;&mdash; even after our
+                engagement ends.
               </p>
               <a
                 href={bookingUrl}
@@ -88,7 +85,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="service__cta"
               >
-                Book a free call <span className="arrow">&rarr;</span>
+                Book a strategy call <span className="arrow">&rarr;</span>
               </a>
             </div>
           </div>
