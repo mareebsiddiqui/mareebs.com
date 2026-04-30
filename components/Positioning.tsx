@@ -43,7 +43,7 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                60% revenue growth, 90% error reduction&nbsp;&mdash; results
+                60% revenue growth, 90% error reduction - results
                 I&rsquo;ve already delivered
               </li>
               <li className="positioning__trait positioning__trait--positive">
@@ -52,7 +52,7 @@ export default function Positioning() {
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Direct access to a senior engineer&nbsp;&mdash; no layers, no
+                Direct access to a senior engineer - no layers, no
                 handoffs
               </li>
               <li className="positioning__trait positioning__trait--positive">

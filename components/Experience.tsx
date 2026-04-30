@@ -6,7 +6,7 @@ export default function Experience() {
 
         <div className="experience__grid">
           <div className="experience__card reveal">
-            <span className="experience__date mono">Feb 2026 &mdash; Present</span>
+            <span className="experience__date mono">Feb 2026 - Present</span>
             <h3 className="experience__company">Wise</h3>
             <span className="experience__role">Platform Engineer</span>
             <ul className="experience__metrics">
@@ -17,7 +17,7 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <span className="experience__date mono">Apr 2024 &mdash; 2026</span>
+            <span className="experience__date mono">Apr 2024 - 2026</span>
             <h3 className="experience__company">Dubizzle</h3>
             <span className="experience__role">Software Engineer</span>
             <ul className="experience__metrics">
@@ -28,7 +28,7 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <span className="experience__date mono">Jan 2023 &mdash; Apr 2024</span>
+            <span className="experience__date mono">Jan 2023 - Apr 2024</span>
             <h3 className="experience__company">ByteCorp.ai</h3>
             <span className="experience__role">Software Engineer</span>
             <ul className="experience__metrics">
@@ -39,7 +39,7 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <span className="experience__date mono">Jul &mdash; Dec 2022</span>
+            <span className="experience__date mono">Jul - Dec 2022</span>
             <h3 className="experience__company">Securiti.ai</h3>
             <span className="experience__role">Software Engineer</span>
             <ul className="experience__metrics">
@@ -50,7 +50,7 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <span className="experience__date mono">Feb &mdash; Jun 2022</span>
+            <span className="experience__date mono">Feb - Jun 2022</span>
             <h3 className="experience__company">SWVL</h3>
             <span className="experience__role">Software Engineer</span>
             <ul className="experience__metrics">
@@ -61,7 +61,7 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <span className="experience__date mono">2014 &mdash; Present</span>
+            <span className="experience__date mono">2014 - Present</span>
             <h3 className="experience__company">Freelance</h3>
             <span className="experience__role">Full-Stack Engineer &amp; Consultant</span>
             <ul className="experience__metrics">

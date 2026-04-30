@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Blog — Areeb Siddiqui",
+  title: "Blog - Areeb Siddiqui",
   description:
     "Case studies, essays, and opinions on software engineering, platform design, and building products.",
 };

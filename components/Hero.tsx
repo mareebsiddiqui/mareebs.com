@@ -74,7 +74,7 @@ export default function Hero() {
           <span ref={typedRef}></span>
         </span>
         <h1 className="hero__name">
-          Areeb Siddiqui &mdash; Fractional CTO
+          Areeb Siddiqui - Fractional CTO
         </h1>
         <p className="hero__tagline">
           Ship faster and grow revenue without hiring a full-time CTO.
@@ -82,7 +82,7 @@ export default function Hero() {
         <p className="hero__summary">
           60% revenue growth at Dubizzle. 90% fewer production errors at SWVL.
           $4,200/year saved per device at ByteCorp. I&rsquo;ve spent 13 years
-          shipping systems at 5 companies&nbsp;&mdash; now I bring that
+          shipping systems at 5 companies - now I bring that
           experience to your startup as a fractional CTO.
         </p>
         <div className="hero__actions">

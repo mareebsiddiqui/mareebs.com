@@ -14,7 +14,7 @@ export default function Services() {
               <h3 className="service__name">Full-Stack Development</h3>
               <p className="service__desc">
                 Ship your MVP in weeks, not quarters. I build production-ready
-                applications across the full stack&nbsp;&mdash; one senior
+                applications across the full stack - one senior
                 engineer, end-to-end. No coordinator tax, no rework. You get a
                 product that&rsquo;s built to grow from day one.
               </p>
@@ -54,7 +54,7 @@ export default function Services() {
               <h3 className="service__name">Architecture Design</h3>
               <p className="service__desc">
                 Get a system architecture designed for your actual
-                team&nbsp;&mdash; not what&rsquo;s trending on Hacker News.
+                team - not what&rsquo;s trending on Hacker News.
                 I&rsquo;ve designed systems for 4-person startups and 10-person
                 teams, optimizing for the growth stage you&rsquo;re at today
                 and the scale you&rsquo;ll need tomorrow.
@@ -76,7 +76,7 @@ export default function Services() {
                 Turn your developers into technical owners. I run pair sessions
                 that teach, establish code review standards that stick, and
                 mentor engineers into leaders. The result: a self-sufficient
-                team that ships confidently&nbsp;&mdash; even after our
+                team that ships confidently - even after our
                 engagement ends.
               </p>
               <a

@@ -121,7 +121,7 @@ export default function Evolution() {
               optional. I started building websites at 11 and became a Microsoft
               Certified Professional at 13. That head start means my advice comes
               from over a decade of seeing what actually works in
-              production&nbsp;&mdash; not just what the docs say.
+              production&nbsp;- not just what the docs say.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function Evolution() {
             <p className="evolution__text">
               Pitched a startup idea at the Pakistan Startup Cup and made it to
               the national Top 25 out of 15,000+ teams. At 16, I was the youngest
-              in the room&nbsp;&mdash; again. That same year, I signed my first
+              in the room&nbsp;- again. That same year, I signed my first
               freelance client. I learned early that real problems need specific
               solutions, not generic playbooks.
             </p>
@@ -168,7 +168,7 @@ export default function Evolution() {
             <h3 className="evolution__title">7 Products. Solo.</h3>
             <p className="evolution__text">
               University by day, freelance by night. Streaming platforms, real-time
-              video calling, e-commerce stores, meeting schedulers&nbsp;&mdash;
+              video calling, e-commerce stores, meeting schedulers&nbsp;-
               each a different stack, a different problem. This is why I can give
               you specific answers across the full stack: I&rsquo;ve built all of
               it myself.
@@ -195,7 +195,7 @@ spec:
               SWVL and Securiti.ai taught me what production really means. Fixed
               critical payment bugs affecting thousands. Built dead letter queues
               that slashed system errors by 90%. Hit 95% test coverage with TDD.
-              This is production-grade experience&nbsp;&mdash; the kind no chatbot
+              This is production-grade experience&nbsp;- the kind no chatbot
               can hallucinate.
             </p>
           </div>
@@ -215,7 +215,7 @@ spec:
             </div>
             <h3 className="evolution__title">10-Person Team. 60% Revenue Growth.</h3>
             <p className="evolution__text">
-              Led a 10-member team at ByteCorp&nbsp;&mdash; sub-500ms fleet
+              Led a 10-member team at ByteCorp&nbsp;- sub-500ms fleet
               tracking, $4,200 saved per device. Drove 60% revenue growth at
               Dubizzle. Now at Wise, building analytics platform infrastructure.
               Every year adds more battle scars, more patterns, more confidence in

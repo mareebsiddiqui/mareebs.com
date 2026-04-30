@@ -8,7 +8,7 @@ export default function Contact() {
         <p className="contact__sub reveal">
           Book a 45-minute strategy call. We&rsquo;ll map your biggest
           technical bottleneck and how to turn it into a growth lever. No pitch
-          deck, no sales team&nbsp;&mdash; just a direct conversation with a
+          deck, no sales team - just a direct conversation with a
           senior engineer who&rsquo;s done this at 5 companies.
         </p>
         <div className="contact__actions reveal">

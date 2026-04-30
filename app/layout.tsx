@@ -92,7 +92,7 @@ export default function RootLayout({
                     "@type": "Occupation",
                     name: "Fractional CTO",
                     description:
-                      "Senior engineering leadership for startups — architecture, DevOps, full-stack development, and team mentoring.",
+                      "Senior engineering leadership for startups - architecture, DevOps, full-stack development, and team mentoring.",
                   },
                 },
                 {
@@ -151,7 +151,7 @@ export default function RootLayout({
                   "@type": "WebSite",
                   "@id": "https://mareebs.com/#website",
                   url: "https://mareebs.com",
-                  name: "Areeb Siddiqui — Fractional CTO",
+                  name: "Areeb Siddiqui - Fractional CTO",
                   publisher: { "@id": "https://mareebs.com/#person" },
                   inLanguage: "en",
                 },
