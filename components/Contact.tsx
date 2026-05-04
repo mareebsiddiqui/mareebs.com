@@ -12,17 +12,19 @@ export default function Contact() {
           senior engineer who&rsquo;s done this at 5 companies.
         </p>
         <div className="contact__actions reveal">
-          <a
-            href="https://tidycal.com/mohammadareebs/45-minute-prospect-discussion"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact__book"
-          >
-            Book a strategy call <span className="arrow">&rarr;</span>
-          </a>
-          <span className="contact__availability">
-            Currently accepting 2 new clients.
-          </span>
+          <div className="contact__cta-group">
+            <a
+              href="https://tidycal.com/mohammadareebs/45-minute-prospect-discussion"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact__book"
+            >
+              Book a strategy call <span className="arrow">&rarr;</span>
+            </a>
+            <span className="contact__availability">
+              Currently accepting 2 new clients.
+            </span>
+          </div>
           <a href="mailto:mohammadareebs@gmail.com" className="contact__email">
             mohammadareebs@gmail.com
           </a>

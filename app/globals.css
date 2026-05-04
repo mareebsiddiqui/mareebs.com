@@ -469,6 +469,12 @@ img { max-width: 100%; display: block; }
   background: var(--bg-primary);
 }
 
+#positioning .positioning__card,
+#experience .experience__card,
+#services .service__card {
+  background: var(--bg-void);
+}
+
 #positioning {
   padding: var(--section-padding) 0;
 }
@@ -587,10 +593,16 @@ img { max-width: 100%; display: block; }
   background: rgba(255, 69, 58, 0.12);
 }
 
+.contact__cta-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .contact__availability {
   font-size: 0.8125rem;
   color: var(--highlight);
-  margin-top: 0.75rem;
   letter-spacing: 0.02em;
 }
 
@@ -837,6 +849,43 @@ img { max-width: 100%; display: block; }
   color: var(--text-primary);
 }
 
+/* ===== TESTIMONIALS ===== */
+#testimonials {
+  padding: var(--section-padding) 0;
+}
+
+.testimonial {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonial__text {
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.testimonial__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.testimonial__role {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
 /* ===== SERVICES ===== */
 #services {
   padding: var(--section-padding) 0;
@@ -935,7 +984,7 @@ img { max-width: 100%; display: block; }
   gap: 0.5rem;
   font-size: 0.9375rem;
   font-weight: 600;
-  color: var(--bg);
+  color: #fff;
   background: var(--accent);
   text-decoration: none;
   margin-top: auto;
