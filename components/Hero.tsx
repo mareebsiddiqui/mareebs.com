@@ -45,8 +45,7 @@ export default function Hero() {
           .from(".hero__name", { y: 40, opacity: 0 }, 0.3)
           .from(".hero__tagline", { y: 30, opacity: 0 }, 0.5)
           .from(".hero__stats", { y: 30, opacity: 0 }, 0.7)
-          .from(".hero__actions", { y: 20, opacity: 0 }, 0.9)
-          .from(".hero__scroll-hint", { opacity: 0 }, 1.2);
+          .from(".hero__actions", { y: 20, opacity: 0 }, 0.9);
       });
     };
 
@@ -104,23 +103,6 @@ export default function Hero() {
             See proven results <span className="arrow">&rarr;</span>
           </a>
         </div>
-      </div>
-      <div className="hero__scroll-hint">
-        <span>scroll</span>
-        <svg
-          width="16"
-          height="24"
-          viewBox="0 0 16 24"
-          fill="none"
-        >
-          <path
-            d="M8 4v12m0 0l-4-4m4 4l4-4"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
       </div>
     </section>
   );

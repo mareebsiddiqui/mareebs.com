@@ -240,24 +240,23 @@ img { max-width: 100%; display: block; }
 /* ===== HERO ===== */
 #hero {
   position: relative;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem var(--container-padding);
+  padding: clamp(6rem, 15vh, 10rem) var(--container-padding) clamp(4rem, 10vh, 6rem);
   overflow: hidden;
 }
 
 .hero__glow {
   position: absolute;
-  top: -30%;
+  top: -40%;
   left: 50%;
   transform: translateX(-50%);
   width: 140%;
-  height: 80%;
-  background: radial-gradient(ellipse 60% 50% at 50% 30%, var(--accent-muted), transparent 70%);
+  height: 120%;
+  background: radial-gradient(ellipse 60% 50% at 50% 40%, var(--accent-muted), transparent 70%);
   pointer-events: none;
   animation: pulseGlow 6s ease-in-out infinite;
 }
@@ -387,27 +386,6 @@ img { max-width: 100%; display: block; }
 
 .hero__cta:hover .arrow {
   transform: translateX(4px);
-}
-
-.hero__scroll-hint {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--text-faint);
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  animation: bobDown 2s ease-in-out infinite;
-}
-
-@keyframes bobDown {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(6px); }
 }
 
 /* ===== COMPACT TIMELINE ===== */
