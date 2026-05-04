@@ -31,14 +31,12 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/img/me.jpeg",
-        width: 140,
-        height: 140,
         alt: "Areeb Siddiqui",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Fractional CTO for Startups | Areeb Siddiqui",
     description:
       "Fractional CTO who's driven 60% revenue growth and eliminated 90% of production errors. 13+ years shipping systems at Wise, Dubizzle, and 3 more. Book a strategy call.",

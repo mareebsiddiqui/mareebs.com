@@ -1,6 +1,16 @@
 import type { MetadataRoute } from "next";
+import { getPosts } from "@/lib/notion";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const posts = await getPosts();
+
+  const blogEntries = posts.map((post) => ({
+    url: `https://mareebs.com/blog/${post.slug}`,
+    lastModified: post.date ? new Date(post.date) : new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
   return [
     {
       url: "https://mareebs.com",
@@ -14,5 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    ...blogEntries,
   ];
 }

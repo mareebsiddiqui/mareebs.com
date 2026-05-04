@@ -25,11 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} - Areeb Siddiqui`,
     description: post.excerpt,
+    authors: [{ name: "Areeb Siddiqui", url: "https://mareebs.com" }],
+    alternates: {
+      canonical: `https://mareebs.com/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
+      authors: ["Areeb Siddiqui"],
       images: post.coverUrl ? [{ url: post.coverUrl }] : [],
     },
   };
@@ -52,6 +57,29 @@ export default async function BlogPost({ params }: Props) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: post.title,
+            description: post.excerpt,
+            datePublished: post.date,
+            author: {
+              "@type": "Person",
+              "@id": "https://mareebs.com/#person",
+              name: "Areeb Siddiqui",
+            },
+            publisher: {
+              "@type": "Person",
+              "@id": "https://mareebs.com/#person",
+            },
+            mainEntityOfPage: `https://mareebs.com/blog/${slug}`,
+            ...(post.coverUrl ? { image: post.coverUrl } : {}),
+          }),
+        }}
+      />
       <BlogNavbar />
       <main>
         <article className="post container">
