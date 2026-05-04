@@ -4,6 +4,7 @@ import Positioning from "@/components/Positioning";
 import Evolution from "@/components/Evolution";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
+import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ export default function Home() {
         <Evolution />
         <Experience />
         <Portfolio />
+        <Testimonials />
         <Services />
         <Contact />
       </main>
