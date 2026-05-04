@@ -465,13 +465,13 @@ img { max-width: 100%; display: block; }
 /* ===== POSITIONING ===== */
 #positioning,
 #experience,
-#services {
+#portfolio {
   background: var(--bg-primary);
 }
 
 #positioning .positioning__card,
 #experience .experience__card,
-#services .service__card {
+#portfolio .portfolio__card {
   background: var(--bg-void);
 }
 
@@ -517,21 +517,6 @@ img { max-width: 100%; display: block; }
 
 .positioning__card--faded:hover {
   opacity: 1;
-}
-
-.positioning__badge {
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 0.25rem 1rem;
-  font-size: 0.6875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--bg-void);
-  background: var(--accent);
-  border-radius: 9999px;
-  white-space: nowrap;
 }
 
 .positioning__icon {
@@ -851,39 +836,77 @@ img { max-width: 100%; display: block; }
 
 /* ===== TESTIMONIALS ===== */
 #testimonials {
-  padding: var(--section-padding) 0;
+  padding: clamp(4rem, 10vh, 7rem) 0;
+}
+
+#testimonials .section__title {
+  margin-bottom: 2.5rem;
+}
+
+.testimonial__carousel {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .testimonial {
-  max-width: 700px;
-  margin: 0 auto;
   text-align: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.testimonial--active {
+  opacity: 1;
+  position: relative;
+  pointer-events: auto;
 }
 
 .testimonial__text {
-  font-size: clamp(1.125rem, 2vw, 1.375rem);
-  line-height: 1.8;
-  color: var(--text-secondary);
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  line-height: 1.7;
+  color: var(--text-primary);
   font-style: italic;
+  font-weight: 300;
+  letter-spacing: -0.01em;
   margin-bottom: 1.5rem;
 }
 
 .testimonial__author {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.testimonial__name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.testimonial__role {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--text-muted);
+  font-weight: 500;
+}
+
+.testimonial__sep {
+  color: var(--text-faint);
+  font-weight: 400;
+}
+
+.testimonial__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.testimonial__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: var(--text-faint);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.testimonial__dot--active {
+  background: var(--accent);
 }
 
 /* ===== SERVICES ===== */

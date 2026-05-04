@@ -37,7 +37,6 @@ export default function Positioning() {
 
           {/* Work With Areeb (highlighted) */}
           <div className="positioning__card positioning__card--highlighted reveal">
-            <span className="positioning__badge mono">RECOMMENDED</span>
             <span className="positioning__icon mono">{"//"}</span>
             <h3 className="positioning__name">Work With Areeb</h3>
             <ul className="positioning__traits">

@@ -99,7 +99,7 @@ export default function Hero() {
           <a href="#contact" className="hero__cta">
             Book a strategy call <span className="arrow">&rarr;</span>
           </a>
-          <a href="#positioning" className="hero__cta hero__cta--secondary">
+          <a href="#experience" className="hero__cta hero__cta--secondary">
             See proven results <span className="arrow">&rarr;</span>
           </a>
         </div>
