@@ -13,7 +13,6 @@ export default function Services() {
 
         <div className="services__grid">
           <div className="service__card service__card--primary reveal">
-            <span className="service__badge mono">RECOMMENDED</span>
             <h3 className="service__name">Fractional CTO</h3>
             <p className="service__tagline">
               Strategic + hands-on engineering leadership, monthly.
