@@ -3,13 +3,14 @@ export default function Contact() {
     <section id="contact">
       <div className="container contact__inner">
         <h2 className="contact__headline reveal">
-          Let&rsquo;s find the revenue you&rsquo;re leaving on the table.
+          Stop guessing on technical decisions.
         </h2>
         <p className="contact__sub reveal">
-          Book a 45-minute strategy call. We&rsquo;ll map your biggest
-          technical bottleneck and how to turn it into a growth lever. No pitch
-          deck, no sales team - just a direct conversation with a
-          senior engineer who&rsquo;s done this at 5 companies.
+          Book a free 45-minute call. Tell me what&rsquo;s not working - slow
+          releases, scaling problems, team gaps, architecture doubts.
+          I&rsquo;ll tell you exactly what I&rsquo;d fix first and why. No pitch
+          deck, no sales team - just a direct conversation with someone
+          who&rsquo;s solved these problems at 5 companies.
         </p>
         <div className="contact__actions reveal">
           <div className="contact__cta-group">
@@ -19,7 +20,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="contact__book"
             >
-              Book a strategy call <span className="arrow">&rarr;</span>
+              Book a free strategy call <span className="arrow">&rarr;</span>
             </a>
             <span className="contact__availability">
               Currently accepting 2 new clients.

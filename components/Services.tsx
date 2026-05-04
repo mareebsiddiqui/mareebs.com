@@ -7,19 +7,23 @@ export default function Services() {
       <div className="container">
         <h2 className="section__title">Work with me.</h2>
         <p className="section__subtitle">
-          Three ways to get senior engineering leadership without the
-          full-time hire.
+          Three ways I solve technical leadership gaps - without the
+          full-time CTO salary.
         </p>
 
         <div className="services__grid">
           <div className="service__card service__card--primary reveal">
-            <h3 className="service__name">Fractional CTO</h3>
+            <h3 className="service__name">Ongoing CTO Partnership</h3>
+            <p className="service__highlight">
+              60% revenue growth at Dubizzle
+            </p>
             <p className="service__tagline">
-              Strategic + hands-on engineering leadership, monthly.
+              The senior technical decision-maker your startup needs - without
+              the equity or salary.
             </p>
             <p className="service__for">
-              For startups that need a senior technical voice in the room but
-              aren&rsquo;t ready for a full-time CTO hire.
+              For founders making architecture, hiring, and infrastructure
+              decisions they&rsquo;re not sure are right.
             </p>
             <ul className="service__checklist">
               <li>Architecture decisions and system design</li>
@@ -28,27 +32,28 @@ export default function Services() {
               <li>Team mentoring and hiring guidance</li>
               <li>Direct Slack/call access - no layers</li>
             </ul>
-            <p className="service__proof">
-              This is how I drove 60% revenue growth at Dubizzle.
-            </p>
             <a
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="service__cta"
             >
-              Book a strategy call <span className="arrow">&rarr;</span>
+              Book a free strategy call <span className="arrow">&rarr;</span>
             </a>
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">MVP Sprint</h3>
+            <h3 className="service__name">Build My MVP</h3>
+            <p className="service__highlight">
+              20+ products shipped solo, end-to-end
+            </p>
             <p className="service__tagline">
-              Full-stack product, shipped end-to-end.
+              Your product, built production-ready by one senior engineer - not
+              an agency of juniors.
             </p>
             <p className="service__for">
-              For founders who need a production-ready MVP built fast by one
-              senior engineer - not a team of juniors.
+              For founders who&rsquo;ve been burned by agencies, or can&rsquo;t
+              tell if their dev team is building it right.
             </p>
             <ul className="service__checklist">
               <li>Full-stack development (React/Next.js + Django/FastAPI)</li>
@@ -57,27 +62,28 @@ export default function Services() {
               <li>Production monitoring and observability</li>
               <li>Handoff documentation</li>
             </ul>
-            <p className="service__proof">
-              I&rsquo;ve shipped 20+ products this way - solo, end-to-end.
-            </p>
             <a
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="service__cta"
             >
-              Book a strategy call <span className="arrow">&rarr;</span>
+              Book a free strategy call <span className="arrow">&rarr;</span>
             </a>
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">Technical Audit</h3>
+            <h3 className="service__name">Fix What&rsquo;s Broken</h3>
+            <p className="service__highlight">
+              75% CPU reduction, $4,200/yr saved per device at ByteCorp
+            </p>
             <p className="service__tagline">
-              Find what&rsquo;s slowing you down, fix what matters.
+              Find the technical debt that&rsquo;s costing you money, and get a
+              plan to fix it.
             </p>
             <p className="service__for">
-              For teams that know something is wrong - slow deploys, scaling
-              issues, tech debt - but need an expert eye to prioritize.
+              For teams where deploys take hours, the app crashes under load,
+              and nobody knows where to start.
             </p>
             <ul className="service__checklist">
               <li>System architecture review</li>
@@ -86,17 +92,13 @@ export default function Services() {
               <li>Prioritized action plan with estimated effort</li>
               <li>Optional: stay on to implement fixes</li>
             </ul>
-            <p className="service__proof">
-              At ByteCorp, my audit led to 75% CPU reduction and $4,200/yr
-              saved per device.
-            </p>
             <a
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="service__cta"
             >
-              Book a strategy call <span className="arrow">&rarr;</span>
+              Book a free strategy call <span className="arrow">&rarr;</span>
             </a>
           </div>
         </div>

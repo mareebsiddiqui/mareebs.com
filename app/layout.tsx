@@ -19,13 +19,13 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mareebs.com"),
-  title: "Fractional CTO for Startups | Areeb Siddiqui",
+  title: "Fractional CTO for Startups - Architecture, Hiring, Infrastructure | Areeb Siddiqui",
   description:
-    "Fractional CTO who's driven 60% revenue growth and eliminated 90% of production errors. 13+ years shipping systems at Wise, Dubizzle, and 3 more. Book a strategy call.",
+    "Fractional CTO helping startups make the technical decisions that drive revenue. 60% revenue growth at Dubizzle, 90% error reduction at SWVL. Architecture, hiring, and infrastructure - without the full-time salary. Book a free strategy call.",
   openGraph: {
     title: "Fractional CTO for Startups | Areeb Siddiqui",
     description:
-      "Fractional CTO who's driven 60% revenue growth and eliminated 90% of production errors. 13+ years shipping systems at Wise, Dubizzle, and 3 more. Book a strategy call.",
+      "Fractional CTO helping startups make the technical decisions that drive revenue. 60% revenue growth at Dubizzle, 90% error reduction at SWVL. Book a free strategy call.",
     url: "https://mareebs.com",
     type: "website",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fractional CTO for Startups | Areeb Siddiqui",
     description:
-      "Fractional CTO who's driven 60% revenue growth and eliminated 90% of production errors. 13+ years shipping systems at Wise, Dubizzle, and 3 more. Book a strategy call.",
+      "Fractional CTO helping startups make the technical decisions that drive revenue. 60% revenue growth at Dubizzle, 90% error reduction at SWVL. Book a free strategy call.",
     images: ["/img/me.jpeg"],
   },
   other: { "color-scheme": "dark light" },

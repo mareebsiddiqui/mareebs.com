@@ -15,8 +15,8 @@ export default function Hero() {
         const { default: Typed } = await import("typed.js");
         typed = new Typed(typedRef.current, {
           strings: [
-            "YOUR STARTUP NEEDS A CTO.",
-            "YOU DON'T NEED TO HIRE ONE.",
+            "YOUR TECH DECISIONS ARE BUSINESS DECISIONS.",
+            "MOST FOUNDERS MAKE THEM BLIND.",
           ],
           typeSpeed: 50,
           backSpeed: 30,
@@ -76,7 +76,8 @@ export default function Hero() {
           Areeb Siddiqui - Fractional CTO
         </h1>
         <p className="hero__tagline">
-          Ship faster and grow revenue - without the $300K salary.
+          I make the technical calls that drive revenue - architecture,
+          infrastructure, team - so one wrong decision doesn&rsquo;t cost you 6 months.
         </p>
         <div className="hero__stats">
           <div className="hero__stat">
@@ -97,7 +98,7 @@ export default function Hero() {
         </div>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
-            Book a strategy call <span className="arrow">&rarr;</span>
+            Book a free strategy call <span className="arrow">&rarr;</span>
           </a>
           <a href="#experience" className="hero__cta hero__cta--secondary">
             See proven results <span className="arrow">&rarr;</span>
