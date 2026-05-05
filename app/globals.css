@@ -1565,6 +1565,46 @@ footer {
 .notion-color-pink_background { background: rgba(212, 93, 168, 0.15); padding: 0.15em 0.3em; border-radius: 3px; }
 .notion-color-red_background { background: rgba(224, 81, 81, 0.15); padding: 0.15em 0.3em; border-radius: 3px; }
 
+/* ===== SKELETON LOADING ===== */
+.skeleton {
+  background: var(--bg-elevated);
+  border-radius: 8px;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton--type {
+  width: 80px;
+  height: 14px;
+  margin: 0 auto 1rem;
+}
+
+.skeleton--title {
+  width: 60%;
+  height: 36px;
+  margin: 0 auto 0.75rem;
+}
+
+.skeleton--date {
+  width: 120px;
+  height: 14px;
+  margin: 0 auto;
+}
+
+.skeleton--paragraph {
+  width: 100%;
+  height: 18px;
+  margin-bottom: 1rem;
+}
+
+.skeleton--short {
+  width: 70%;
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
 /* ===== REVEAL ANIMATION CLASSES ===== */
 .reveal {
   opacity: 0;

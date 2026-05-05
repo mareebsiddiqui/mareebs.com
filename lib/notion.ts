@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { Client } from "@notionhq/client";
 import type {
   PageObjectResponse,
@@ -82,7 +83,7 @@ export async function getPosts(): Promise<PostMeta[]> {
   }
 }
 
-export async function getPostBySlug(slug: string): Promise<PostMeta | null> {
+export const getPostBySlug = cache(async (slug: string): Promise<PostMeta | null> => {
   const response = await notion.dataSources.query({
     data_source_id: databaseId,
     filter: {
@@ -97,7 +98,7 @@ export async function getPostBySlug(slug: string): Promise<PostMeta | null> {
   const page = response.results[0];
   if (!page || !("properties" in page)) return null;
   return pageToPostMeta(page as PageObjectResponse);
-}
+});
 
 export async function getBlocks(blockId: string): Promise<NotionBlock[]> {
   const blocks: NotionBlock[] = [];
@@ -110,15 +111,21 @@ export async function getBlocks(blockId: string): Promise<NotionBlock[]> {
       page_size: 100,
     });
 
+    const pageBlocks: NotionBlock[] = [];
     for (const block of response.results) {
       if (!("type" in block)) continue;
-      const b = block as NotionBlock;
-      if (b.has_children) {
-        b.children = await getBlocks(b.id);
-      }
-      blocks.push(b);
+      pageBlocks.push(block as NotionBlock);
     }
 
+    await Promise.all(
+      pageBlocks.map(async (b) => {
+        if (b.has_children) {
+          b.children = await getBlocks(b.id);
+        }
+      })
+    );
+
+    blocks.push(...pageBlocks);
     cursor = response.has_more ? response.next_cursor ?? undefined : undefined;
   } while (cursor);
 
