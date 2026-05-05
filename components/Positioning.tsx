@@ -6,31 +6,30 @@ export default function Positioning() {
       <div className="container">
         <h2 className="section__title">Why founders choose to work with me.</h2>
         <p className="section__subtitle">
-          Not all engineering guidance is created equal. Here&rsquo;s the
-          difference in outcomes.
+          You have three options. Two of them burn cash or time.
         </p>
 
         <div className="positioning__grid">
-          {/* AI Chatbots */}
+          {/* Hire a Full-Time CTO */}
           <div className="positioning__card positioning__card--faded reveal">
-            <span className="positioning__icon mono">{"{ }"}</span>
-            <h3 className="positioning__name">AI Chatbots</h3>
+            <span className="positioning__icon mono">$250K</span>
+            <h3 className="positioning__name">Hire a Full-Time CTO</h3>
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Generic answers that miss your business context
+                $200-300K salary + equity before they ship anything
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                No accountability when advice breaks production
+                3-month ramp-up to understand your codebase
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Hours lost validating and debugging output
+                They quit in 18 months - you start over
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Zero understanding of your team, budget, or timeline
+                Overkill if you need decisions, not a department
               </li>
             </ul>
           </div>
@@ -42,21 +41,19 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                60% revenue growth, 90% error reduction - results
-                I&rsquo;ve already delivered
+                Senior decisions from day one - no ramp-up, no handoffs
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Decisions shaped by your stack, team size, and growth stage
+                Shaped by your stack, your team size, your burn rate
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Direct access to a senior engineer - no layers, no
-                handoffs
+                I build alongside your team - not just advise from slides
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Accountable partner who ships alongside your team
+                No equity, no 12-month contract - cancel anytime
               </li>
             </ul>
             <a
@@ -69,26 +66,26 @@ export default function Positioning() {
             </a>
           </div>
 
-          {/* Consulting Firms */}
+          {/* Use a Dev Agency */}
           <div className="positioning__card positioning__card--faded reveal">
-            <span className="positioning__icon mono">$$$</span>
-            <h3 className="positioning__name">Consulting Firms</h3>
+            <span className="positioning__icon mono">???</span>
+            <h3 className="positioning__name">Use a Dev Agency</h3>
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Junior consultants do the actual work
+                Senior sold the deal, juniors write the code
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Weeks of onboarding before any deliverable
+                $50K later, you get code nobody can maintain
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                One-size-fits-all frameworks, not your reality
+                Zero ownership after handoff - bugs are your problem
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Long contracts with slow feedback loops
+                They optimize for billable hours, not your success
               </li>
             </ul>
           </div>

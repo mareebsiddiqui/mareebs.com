@@ -44,8 +44,7 @@ export default function Hero() {
         tl.from(".hero__portrait", { scale: 0.8, opacity: 0 }, 0.1)
           .from(".hero__name", { y: 40, opacity: 0 }, 0.3)
           .from(".hero__tagline", { y: 30, opacity: 0 }, 0.5)
-          .from(".hero__stats", { y: 30, opacity: 0 }, 0.7)
-          .from(".hero__actions", { y: 20, opacity: 0 }, 0.9);
+          .from(".hero__actions", { y: 20, opacity: 0 }, 0.7);
       });
     };
 
@@ -76,26 +75,10 @@ export default function Hero() {
           Areeb Siddiqui - Fractional CTO
         </h1>
         <p className="hero__tagline">
-          I make the technical calls that drive revenue - architecture,
-          infrastructure, team - so one wrong decision doesn&rsquo;t cost you 6 months.
+          I make the architecture, hiring, and infrastructure decisions
+          that drive revenue - for non-technical founders who outgrew
+          freelancers but aren&rsquo;t ready for a $250K hire.
         </p>
-        <div className="hero__stats">
-          <div className="hero__stat">
-            <span className="hero__stat-value mono">60%</span>
-            <span className="hero__stat-label">Revenue Growth</span>
-            <span className="hero__stat-company mono">Dubizzle</span>
-          </div>
-          <div className="hero__stat">
-            <span className="hero__stat-value mono">90%</span>
-            <span className="hero__stat-label">Fewer Production Errors</span>
-            <span className="hero__stat-company mono">SWVL</span>
-          </div>
-          <div className="hero__stat">
-            <span className="hero__stat-value mono">$4,200/yr</span>
-            <span className="hero__stat-label">Saved Per Device</span>
-            <span className="hero__stat-company mono">ByteCorp</span>
-          </div>
-        </div>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
             Book a free strategy call <span className="arrow">&rarr;</span>

@@ -13,7 +13,7 @@ export default function Services() {
 
         <div className="services__grid">
           <div className="service__card service__card--primary reveal">
-            <h3 className="service__name">Ongoing CTO Partnership</h3>
+            <h3 className="service__name">Lead My Engineering</h3>
             <p className="service__highlight">
               60% revenue growth at Dubizzle
             </p>
