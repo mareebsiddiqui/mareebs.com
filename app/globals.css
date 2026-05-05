@@ -1259,7 +1259,7 @@ footer {
 
 /* ===== BLOG POST ===== */
 .post {
-  padding: var(--section-padding) 0;
+  padding-block: var(--section-padding);
 }
 
 .post__header {
@@ -1405,8 +1405,8 @@ footer {
   list-style: none;
 }
 
-.post__body ul li,
-.post__body ol li {
+.post__body ul > li,
+.post__body ol > li {
   font-size: 1.125rem;
   color: var(--text-secondary);
   line-height: 1.8;
@@ -1415,7 +1415,7 @@ footer {
   padding-left: 1rem;
 }
 
-.post__body ul li::before {
+.post__body ul > li::before {
   content: '';
   position: absolute;
   left: 0;
@@ -1430,11 +1430,11 @@ footer {
   counter-reset: ol-counter;
 }
 
-.post__body ol li {
+.post__body ol > li {
   counter-increment: ol-counter;
 }
 
-.post__body ol li::before {
+.post__body ol > li::before {
   content: counter(ol-counter) ".";
   position: absolute;
   left: 0;
@@ -1691,8 +1691,8 @@ footer {
   }
 
   .post__body p,
-  .post__body ul li,
-  .post__body ol li {
+  .post__body ul > li,
+  .post__body ol > li {
     font-size: 1rem;
   }
 
