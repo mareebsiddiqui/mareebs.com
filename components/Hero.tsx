@@ -86,6 +86,9 @@ export default function Hero() {
           <a href="#experience" className="hero__cta hero__cta--secondary">
             See proven results <span className="arrow">&rarr;</span>
           </a>
+          <a href="/blog" className="hero__cta hero__cta--secondary">
+            Read the blog <span className="arrow">&rarr;</span>
+          </a>
         </div>
       </div>
     </section>
