@@ -4,9 +4,9 @@ export default function Positioning() {
   return (
     <section id="positioning">
       <div className="container">
-        <h2 className="section__title">Why founders choose to work with me.</h2>
+        <h2 className="section__title">Why fintech founders choose to work with me.</h2>
         <p className="section__subtitle">
-          You have three options. Two of them burn cash or time.
+          You have three options. Two of them risk your payments.
         </p>
 
         <div className="positioning__grid">
@@ -17,15 +17,15 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                $200-300K salary + equity before they ship anything
+                $200-300K salary + equity before they understand your ledger
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                3-month ramp-up to understand your codebase
+                3-month ramp-up to learn your payment flows
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                They quit in 18 months - you start over
+                They quit in 18 months - you lose institutional knowledge of your transaction system
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
@@ -41,11 +41,11 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Senior decisions from day one - no ramp-up, no handoffs
+                Battle-tested on payment systems at SWVL and Wise
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Shaped by your stack, your team size, your burn rate
+                I&rsquo;ve hardened payout infrastructure, built analytics processing billions of events
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
@@ -73,19 +73,19 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Senior sold the deal, juniors write the code
+                Senior sold the deal, juniors write your payment code
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                $50K later, you get code nobody can maintain
+                $50K later, you get code that can&rsquo;t pass a PCI audit
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Zero ownership after handoff - bugs are your problem
+                Zero understanding of settlement, reconciliation, or compliance
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                They optimize for billable hours, not your success
+                They optimize for billable hours, not your transaction reliability
               </li>
             </ul>
           </div>

@@ -15,8 +15,8 @@ export default function Hero() {
         const { default: Typed } = await import("typed.js");
         typed = new Typed(typedRef.current, {
           strings: [
-            "YOUR TECH DECISIONS ARE BUSINESS DECISIONS.",
-            "MOST FOUNDERS MAKE THEM BLIND.",
+            "YOUR PAYMENT SYSTEM IS YOUR BUSINESS.",
+            "ONE BAD ARCHITECT CAN COST YOU YOUR LICENSE.",
           ],
           typeSpeed: 50,
           backSpeed: 30,
@@ -72,12 +72,12 @@ export default function Hero() {
           <span ref={typedRef}></span>
         </span>
         <h1 className="hero__name">
-          Areeb Siddiqui - Fractional CTO
+          Areeb Siddiqui - Fractional CTO for Fintech
         </h1>
         <p className="hero__tagline">
-          I make the architecture, hiring, and infrastructure decisions
-          that drive revenue - for non-technical founders who outgrew
-          freelancers but aren&rsquo;t ready for a $250K hire.
+          One failed payout erodes more trust than a month of marketing
+          builds back. I cut payment errors 90% at SWVL. I process billions
+          of financial events at Wise. Your fintech deserves that standard.
         </p>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">

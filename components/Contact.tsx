@@ -3,14 +3,14 @@ export default function Contact() {
     <section id="contact">
       <div className="container contact__inner">
         <h2 className="contact__headline reveal">
-          Stop guessing on technical decisions.
+          Stop shipping payment code you&rsquo;re not sure about.
         </h2>
         <p className="contact__sub reveal">
-          Book a free 45-minute call. Tell me what&rsquo;s not working - slow
-          releases, scaling problems, team gaps, architecture doubts.
-          I&rsquo;ll tell you exactly what I&rsquo;d fix first and why. No pitch
-          deck, no sales team - just a direct conversation with someone
-          who&rsquo;s solved these problems at 5 companies.
+          Book a free 45-minute call. Tell me what&rsquo;s not working - failed
+          transactions, reconciliation mismatches, compliance gaps, scaling
+          bottlenecks. I&rsquo;ll tell you exactly what I&rsquo;d fix first and
+          why. No pitch deck, no sales team - just a direct conversation with an
+          engineer who&rsquo;s built payment systems at SWVL and Wise.
         </p>
         <div className="contact__actions reveal">
           <div className="contact__cta-group">

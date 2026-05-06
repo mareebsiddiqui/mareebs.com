@@ -6,16 +6,30 @@ export default function Experience() {
 
         <div className="experience__grid">
           <div className="experience__card reveal">
-            <h3 className="experience__headline">Zero-Downtime Data Migrations</h3>
+            <h3 className="experience__headline">Billions of Financial Events, Zero Downtime</h3>
             <p className="experience__impact">
               Automated Looker to Lightdash migration. Zero-downtime PipelineWise
               to Apache Flink migration. Analytics platform processing billions of
-              events.
+              financial events daily.
             </p>
             <div className="experience__meta">
               <span className="experience__company mono">Wise</span>
               <span className="experience__date">Feb 2026 - Present</span>
               <span className="experience__role">Platform Engineer</span>
+            </div>
+          </div>
+
+          <div className="experience__card reveal">
+            <h3 className="experience__headline">90% Fewer Payment Errors on Finance Team</h3>
+            <p className="experience__impact">
+              Hardened payout infrastructure across multiple payment cycles. 95%
+              test coverage with TDD on transaction-critical code. Trusted with
+              systems that move real money.
+            </p>
+            <div className="experience__meta">
+              <span className="experience__company mono">SWVL</span>
+              <span className="experience__date">Feb - Jun 2022</span>
+              <span className="experience__role">Software Engineer</span>
             </div>
           </div>
 
@@ -29,20 +43,6 @@ export default function Experience() {
             <div className="experience__meta">
               <span className="experience__company mono">Dubizzle</span>
               <span className="experience__date">Apr 2024 - 2026</span>
-              <span className="experience__role">Software Engineer</span>
-            </div>
-          </div>
-
-          <div className="experience__card reveal">
-            <h3 className="experience__headline">$4,200 Saved Per Device, Per Year</h3>
-            <p className="experience__impact">
-              Led 10-member team across 3 products. Rewrote IoT software in Go:
-              75% less CPU, 98% less memory. 144% packet throughput boost. 5 pilots
-              secured in 2 weeks.
-            </p>
-            <div className="experience__meta">
-              <span className="experience__company mono">ByteCorp.ai</span>
-              <span className="experience__date">Jan 2023 - Apr 2024</span>
               <span className="experience__role">Software Engineer</span>
             </div>
           </div>
@@ -62,24 +62,25 @@ export default function Experience() {
           </div>
 
           <div className="experience__card reveal">
-            <h3 className="experience__headline">Critical Payment Bug Fixed</h3>
+            <h3 className="experience__headline">$4,200 Saved Per Device, Per Year</h3>
             <p className="experience__impact">
-              Resolved payout bug affecting multiple cycles. 95% test coverage with
-              TDD. 90% error rate reduction. Trusted with systems that handle real
-              money.
+              Led 10-member team across 3 products. Rewrote IoT software in Go:
+              75% less CPU, 98% less memory. 144% packet throughput boost. 5 pilots
+              secured in 2 weeks.
             </p>
             <div className="experience__meta">
-              <span className="experience__company mono">SWVL</span>
-              <span className="experience__date">Feb - Jun 2022</span>
+              <span className="experience__company mono">ByteCorp.ai</span>
+              <span className="experience__date">Jan 2023 - Apr 2024</span>
               <span className="experience__role">Software Engineer</span>
             </div>
           </div>
 
           <div className="experience__card reveal">
-            <h3 className="experience__headline">20+ Products Shipped End-to-End</h3>
+            <h3 className="experience__headline">20+ Products Shipped Including Payment Systems</h3>
             <p className="experience__impact">
-              MVPs, streaming platforms, e-commerce, real-time systems. Every stack,
-              every layer. One engineer, zero handoffs, 10+ years.
+              MVPs, payment integrations, e-commerce, real-time systems. Stripe,
+              subscription billing, per-session payments. One engineer, zero
+              handoffs, 10+ years.
             </p>
             <div className="experience__meta">
               <span className="experience__company mono">Freelance</span>

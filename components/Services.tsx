@@ -7,28 +7,29 @@ export default function Services() {
       <div className="container">
         <h2 className="section__title">Work with me.</h2>
         <p className="section__subtitle">
-          Three ways I solve technical leadership gaps - without the
-          full-time CTO salary.
+          Three ways I solve technical leadership gaps for fintech companies -
+          without the full-time CTO salary.
         </p>
 
         <div className="services__grid">
           <div className="service__card service__card--primary reveal">
-            <h3 className="service__name">Lead My Engineering</h3>
+            <h3 className="service__name">Lead My Fintech Engineering</h3>
             <p className="service__highlight">
-              60% revenue growth at Dubizzle
+              90% fewer payment errors at SWVL, billions of events at Wise
             </p>
             <p className="service__tagline">
-              The senior technical decision-maker your startup needs - without
+              The senior technical decision-maker your fintech needs - without
               the equity or salary.
             </p>
             <p className="service__for">
-              For founders making architecture, hiring, and infrastructure
-              decisions they&rsquo;re not sure are right.
+              For founders making architecture decisions on payment systems,
+              compliance infrastructure, and transaction processing
+              they&rsquo;re not sure are right.
             </p>
             <ul className="service__checklist">
-              <li>Architecture decisions and system design</li>
-              <li>DevOps and infrastructure setup</li>
-              <li>Code reviews and engineering standards</li>
+              <li>Payment system architecture and ledger design</li>
+              <li>Compliance infrastructure (PCI-DSS, KYC/AML)</li>
+              <li>Transaction processing and settlement pipelines</li>
               <li>Team mentoring and hiring guidance</li>
               <li>Direct Slack/call access - no layers</li>
             </ul>
@@ -43,23 +44,24 @@ export default function Services() {
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">Build My MVP</h3>
+            <h3 className="service__name">Build My Payment Platform</h3>
             <p className="service__highlight">
-              20+ products shipped solo, end-to-end
+              20+ products shipped including payment integrations
             </p>
             <p className="service__tagline">
-              Your product, built production-ready by one senior engineer - not
-              an agency of juniors.
+              Your fintech product, built production-ready by an engineer
+              who&rsquo;s worked on payment systems at SWVL and Wise.
             </p>
             <p className="service__for">
-              For founders who&rsquo;ve been burned by agencies, or can&rsquo;t
-              tell if their dev team is building it right.
+              For founders who&rsquo;ve been burned by agencies building payment
+              code that can&rsquo;t handle reconciliation, edge cases, or
+              audits.
             </p>
             <ul className="service__checklist">
+              <li>Payment integration (Stripe, ledger systems, settlement)</li>
               <li>Full-stack development (React/Next.js + Django/FastAPI)</li>
-              <li>CI/CD and deployment setup</li>
-              <li>Payment integration (Stripe)</li>
-              <li>Production monitoring and observability</li>
+              <li>CI/CD and deployment with compliance in mind</li>
+              <li>Production monitoring and transaction observability</li>
               <li>Handoff documentation</li>
             </ul>
             <a
@@ -73,22 +75,22 @@ export default function Services() {
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">Fix What&rsquo;s Broken</h3>
+            <h3 className="service__name">Fix My Payment Infrastructure</h3>
             <p className="service__highlight">
-              75% CPU reduction, $4,200/yr saved per device at ByteCorp
+              75% CPU reduction, 90% error reduction at scale
             </p>
             <p className="service__tagline">
-              Find the technical debt that&rsquo;s costing you money, and get a
-              plan to fix it.
+              Find the payment failures, reconciliation errors, and scaling
+              bottlenecks that are costing you transactions.
             </p>
             <p className="service__for">
-              For teams where deploys take hours, the app crashes under load,
-              and nobody knows where to start.
+              For teams where payouts fail silently, reconciliation drifts, and
+              nobody knows where the money went.
             </p>
             <ul className="service__checklist">
-              <li>System architecture review</li>
-              <li>Performance and scalability audit</li>
-              <li>Infrastructure and DevOps assessment</li>
+              <li>Payment flow and reconciliation audit</li>
+              <li>Transaction processing performance review</li>
+              <li>Infrastructure and compliance assessment</li>
               <li>Prioritized action plan with estimated effort</li>
               <li>Optional: stay on to implement fixes</li>
             </ul>
