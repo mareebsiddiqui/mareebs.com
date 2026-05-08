@@ -121,7 +121,10 @@ function renderBlock(block: NotionBlock): React.ReactNode {
       return (
         <aside key={key} className="callout">
           {emoji && <span className="callout__icon">{emoji}</span>}
-          <div className="callout__text">{renderRichText(richText)}</div>
+          <div className="callout__text">
+            {renderRichText(richText)}
+            {block.children && <NotionBlockRenderer blocks={block.children} />}
+          </div>
         </aside>
       );
     }
