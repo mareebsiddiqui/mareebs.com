@@ -31,10 +31,10 @@ Before and during generation, leverage these skills as needed:
 
 ## Content Pillars (pick the most relevant)
 
-1. **War Stories** - "I walked into this mess..." (anonymized client situations, see story rules below)
+1. **Transfer Stories** - Real stories from Securiti.ai/ByteCorp/Wise/Dubizzle/SWVL with explicit bridge to FashionTech/DPP. "I built X. Here's why your DPP system needs the same thing."
 2. **Myth-Busting** - Contrarian takes that challenge conventional startup wisdom
 3. **Frameworks & Playbooks** - Checklists, decision frameworks, interview questions
-4. **Behind-the-Scenes** - What a fractional CTO week actually looks like
+4. **Architecture Breakdowns** - Explain how compliance/data/AI systems work in production using real experience, with explicit lesson for FashionTech
 5. **Founder Education** - Teach non-technical founders to ask the right questions
 
 ## Story & Example Rules (CRITICAL)

@@ -16,10 +16,10 @@ Rotate pillars daily in a 5-day cycle:
 
 | Day in cycle | Pillar |
 |---|---|
-| Day 1 | War Story |
+| Day 1 | Transfer Story |
 | Day 2 | Myth-Busting |
 | Day 3 | Framework & Playbook |
-| Day 4 | Behind-the-Scenes |
+| Day 4 | Architecture Breakdown |
 | Day 5 | Founder Education |
 
 Cycle repeats continuously regardless of day of week.

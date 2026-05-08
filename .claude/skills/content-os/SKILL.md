@@ -65,10 +65,10 @@ Based on $ARGUMENTS:
 - Can't ship AI features fast enough (competitors moving to agentic commerce, investors want operational rigor)
 
 **5 LinkedIn Pillars**:
-1. War Stories - "I walked into this data mess..."
+1. Transfer Stories - "At Securiti.ai, I built X. Here's why DPP needs the same thing."
 2. Myth-Busting - "You don't need blockchain for traceability", "DPP isn't just a QR code"
 3. Frameworks & Playbooks - DPP readiness checklist, AI vendor evaluation matrix, supply chain data audit
-4. Behind-the-Scenes - What a fractional CTO week at a FashionTech startup looks like
+4. Architecture Breakdowns - How compliance/data/AI systems work in production (from real experience), applied to FashionTech
 5. Founder Education - DPP explained simply, GS1 decoded, AI vs ML vs agents for fashion
 
 **6 Twitter Tones** (rotating):
