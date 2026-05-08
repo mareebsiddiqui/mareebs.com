@@ -15,8 +15,8 @@ export default function Hero() {
         const { default: Typed } = await import("typed.js");
         typed = new Typed(typedRef.current, {
           strings: [
-            "YOUR PAYMENT SYSTEM IS YOUR BUSINESS.",
-            "ONE BAD ARCHITECT CAN COST YOU YOUR LICENSE.",
+            "DPP GOES MANDATORY IN 18 MONTHS.",
+            "YOUR SUPPLY CHAIN DATA IS STILL IN SPREADSHEETS.",
           ],
           typeSpeed: 50,
           backSpeed: 30,
@@ -63,7 +63,7 @@ export default function Hero() {
         <div className="hero__portrait">
           <img
             src="/img/me.jpeg"
-            alt="Areeb Siddiqui"
+            alt="Areeb Siddiqui - Fractional CTO for FashionTech and DPP Compliance"
             width={140}
             height={140}
           />
@@ -72,22 +72,23 @@ export default function Hero() {
           <span ref={typedRef}></span>
         </span>
         <h1 className="hero__name">
-          Areeb Siddiqui - Fractional CTO for Fintech
+          Fractional CTO for FashionTech: DPP Compliance, AI Infrastructure
+          &amp; Supply Chain Systems
         </h1>
         <p className="hero__tagline">
-          One failed payout erodes more trust than a month of marketing
-          builds back. I cut payment errors 90% at SWVL. I process billions
-          of financial events at Wise. Your fintech deserves that standard.
+          The EU Digital Product Passport goes mandatory for fashion and
+          textiles late 2027. The registry launches mid-2026. If the
+          regulation feels overwhelming and you don&rsquo;t know where
+          technology ends and legal begins, I&rsquo;ve already solved this
+          problem for regulated industries. Not an agency learning on your
+          budget.
         </p>
         <div className="hero__actions">
           <a href="#contact" className="hero__cta">
             Book a free strategy call <span className="arrow">&rarr;</span>
           </a>
           <a href="#experience" className="hero__cta hero__cta--secondary">
-            See proven results <span className="arrow">&rarr;</span>
-          </a>
-          <a href="/blog" className="hero__cta hero__cta--secondary">
-            Read the blog <span className="arrow">&rarr;</span>
+            See how I&rsquo;ve done this before <span className="arrow">&rarr;</span>
           </a>
         </div>
       </div>

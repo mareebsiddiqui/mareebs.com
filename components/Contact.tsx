@@ -3,14 +3,15 @@ export default function Contact() {
     <section id="contact">
       <div className="container contact__inner">
         <h2 className="contact__headline reveal">
-          Stop shipping payment code you&rsquo;re not sure about.
+          Get your DPP architecture right before the 2027 deadline.
         </h2>
         <p className="contact__sub reveal">
-          Book a free 45-minute call. Tell me what&rsquo;s not working - failed
-          transactions, reconciliation mismatches, compliance gaps, scaling
-          bottlenecks. I&rsquo;ll tell you exactly what I&rsquo;d fix first and
-          why. No pitch deck, no sales team - just a direct conversation with an
-          engineer who&rsquo;s built payment systems at SWVL and Wise.
+          Book a free 45-minute call. No pitch deck, no sales team. Just a direct
+          conversation with me. Tell me where you&rsquo;re stuck: data in spreadsheets,
+          no technical roadmap for DPP, competitors shipping AI features you
+          can&rsquo;t match. I&rsquo;ll tell you what I&rsquo;d build first, what
+          it costs, and what you can safely ignore until later. You&rsquo;ll leave
+          with a clear next step whether we work together or not.
         </p>
         <div className="contact__actions reveal">
           <div className="contact__cta-group">

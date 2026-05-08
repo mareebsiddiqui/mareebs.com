@@ -13,17 +13,17 @@ export default function Evolution() {
     {
       year: "2020",
       title: "7 Products Shipped Solo",
-      text: "Streaming platforms, payment integrations, e-commerce. University by day, freelance by night. Full-stack range.",
+      text: "Streaming platforms, e-commerce, real-time systems. University by day, freelance by night. Full-stack range.",
     },
     {
       year: "2022",
-      title: "Trusted With Real Money",
-      text: "SWVL finance team. Hardened payout infrastructure to 90% fewer errors. 95% test coverage with TDD on transaction-critical code.",
+      title: "Compliance-Critical Systems",
+      text: "Securiti.ai data privacy platform. SWVL regulated infrastructure to 90% fewer errors. 95% test coverage on compliance-critical code.",
     },
     {
       year: "2026",
-      title: "Fintech at Scale",
-      text: "Analytics infrastructure processing billions of financial events at Wise. Zero-downtime migrations. 60% revenue growth at Dubizzle.",
+      title: "Data Infrastructure at Scale",
+      text: "Billions of data events at Wise. Zero-downtime migrations. 60% revenue growth via AI at Dubizzle. IoT device management at ByteCorp.",
     },
   ];
 

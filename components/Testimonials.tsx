@@ -29,7 +29,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <h2 className="section__title">Don&rsquo;t take my word for it.</h2>
+        <h2 className="section__title">What people I&rsquo;ve worked with say.</h2>
         <div className="testimonial__carousel reveal">
           {testimonials.map((t, i) => (
             <blockquote

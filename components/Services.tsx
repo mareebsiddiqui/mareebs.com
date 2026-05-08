@@ -5,33 +5,32 @@ export default function Services() {
   return (
     <section id="services">
       <div className="container">
-        <h2 className="section__title">Work with me.</h2>
+        <h2 className="section__title">FashionTech CTO Services: DPP, AI &amp; Supply Chain</h2>
         <p className="section__subtitle">
-          Three ways I solve technical leadership gaps for fintech companies -
-          without the full-time CTO salary.
+          Three ways I help you hit the DPP deadline without hiring a full-time CTO.
         </p>
 
         <div className="services__grid">
           <div className="service__card service__card--primary reveal">
-            <h3 className="service__name">Lead My Fintech Engineering</h3>
+            <h3 className="service__name">Lead My FashionTech Engineering</h3>
             <p className="service__highlight">
-              90% fewer payment errors at SWVL, billions of events at Wise
+              Billions of data events at Wise, IoT device infrastructure at ByteCorp
             </p>
             <p className="service__tagline">
-              The senior technical decision-maker your fintech needs - without
-              the equity or salary.
+              The senior technical decision-maker your FashionTech startup needs -
+              without the equity or salary.
             </p>
             <p className="service__for">
-              For founders making architecture decisions on payment systems,
-              compliance infrastructure, and transaction processing
-              they&rsquo;re not sure are right.
+              For founders making technical bets on AI, data architecture,
+              and compliance who need a senior engineer confirming
+              they&rsquo;re building the right thing.
             </p>
             <ul className="service__checklist">
-              <li>Payment system architecture and ledger design</li>
-              <li>Compliance infrastructure (PCI-DSS, KYC/AML)</li>
-              <li>Transaction processing and settlement pipelines</li>
+              <li>AI infrastructure (predictive inventory, virtual try-on, personalization)</li>
+              <li>DPP compliance architecture and EU registry integration</li>
+              <li>Supply chain traceability system design</li>
               <li>Team mentoring and hiring guidance</li>
-              <li>Direct Slack/call access - no layers</li>
+              <li>Direct Slack/call access, no layers</li>
             </ul>
             <a
               href={bookingUrl}
@@ -44,25 +43,24 @@ export default function Services() {
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">Build My Payment Platform</h3>
+            <h3 className="service__name">Build My DPP Compliance Platform</h3>
             <p className="service__highlight">
-              20+ products shipped including payment integrations
+              Data privacy platform at Securiti.ai, IoT device management at ByteCorp
             </p>
             <p className="service__tagline">
-              Your fintech product, built production-ready by an engineer
-              who&rsquo;s worked on payment systems at SWVL and Wise.
+              Your Digital Product Passport infrastructure, built production-ready
+              by an engineer who&rsquo;s built compliance systems and IoT device pipelines.
             </p>
             <p className="service__for">
-              For founders who&rsquo;ve been burned by agencies building payment
-              code that can&rsquo;t handle reconciliation, edge cases, or
-              audits.
+              For founders staring at the 2027 deadline with no clear
+              technical plan for how product data gets into the EU registry.
             </p>
             <ul className="service__checklist">
-              <li>Payment integration (Stripe, ledger systems, settlement)</li>
-              <li>Full-stack development (React/Next.js + Django/FastAPI)</li>
-              <li>CI/CD and deployment with compliance in mind</li>
-              <li>Production monitoring and transaction observability</li>
-              <li>Handoff documentation</li>
+              <li>Product data structured to pass EU registry requirements</li>
+              <li>NFC/QR tags on your products that link to full product history</li>
+              <li>All supplier data unified into one queryable system</li>
+              <li>Formatted so your data works with every retailer in Europe</li>
+              <li>Handoff documentation your team can maintain without me</li>
             </ul>
             <a
               href={bookingUrl}
@@ -75,24 +73,25 @@ export default function Services() {
           </div>
 
           <div className="service__card reveal">
-            <h3 className="service__name">Fix My Payment Infrastructure</h3>
+            <h3 className="service__name">Fix My Supply Chain Data</h3>
             <p className="service__highlight">
-              75% CPU reduction, 90% error reduction at scale
+              75% infrastructure cost reduction, 90% error reduction at scale
             </p>
             <p className="service__tagline">
-              Find the payment failures, reconciliation errors, and scaling
-              bottlenecks that are costing you transactions.
+              Find the data silos, interoperability failures, and scaling
+              bottlenecks trapping your supply chain in spreadsheets.
             </p>
             <p className="service__for">
-              For teams where payouts fail silently, reconciliation drifts, and
-              nobody knows where the money went.
+              For teams where supplier data lives in 40 different spreadsheets,
+              traceability is someone&rsquo;s side job, and AI feels impossible
+              with data this messy.
             </p>
             <ul className="service__checklist">
-              <li>Payment flow and reconciliation audit</li>
-              <li>Transaction processing performance review</li>
-              <li>Infrastructure and compliance assessment</li>
-              <li>Prioritized action plan with estimated effort</li>
-              <li>Optional: stay on to implement fixes</li>
+              <li>Full supply chain data audit (where is everything?)</li>
+              <li>Architecture plan to unify it into one system</li>
+              <li>AI readiness assessment (can your data support predictive inventory?)</li>
+              <li>Prioritized action plan with cost estimates</li>
+              <li>Optional: stay on to build it</li>
             </ul>
             <a
               href={bookingUrl}

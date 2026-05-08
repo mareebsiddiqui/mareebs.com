@@ -4,9 +4,9 @@ export default function Positioning() {
   return (
     <section id="positioning">
       <div className="container">
-        <h2 className="section__title">Why fintech founders choose to work with me.</h2>
+        <h2 className="section__title">You have 18 months and three options.</h2>
         <p className="section__subtitle">
-          You have three options. Two of them risk your payments.
+          Two of them put your DPP deadline at risk. Here&rsquo;s why.
         </p>
 
         <div className="positioning__grid">
@@ -17,19 +17,19 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                $200-300K salary + equity before they understand your ledger
+                &euro;200-300K salary + equity before they write a line of code
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                3-month ramp-up to learn your payment flows
+                3 months to hire, 3 months to ramp. That&rsquo;s a third of your runway to deadline.
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                They quit in 18 months - you lose institutional knowledge of your transaction system
+                Senior engineers leave once the hard architecture is done
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Overkill if you need decisions, not a department
+                You need architecture decisions now, not a department to manage
               </li>
             </ul>
           </div>
@@ -41,19 +41,19 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                Battle-tested on payment systems at SWVL and Wise
+                Built systems that track millions of products from factory to customer
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                I&rsquo;ve hardened payout infrastructure, built analytics processing billions of events
+                Shipped IoT device infrastructure identical to DPP data carriers
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                I build alongside your team - not just advise from slides
+                I build alongside your team. Working code every sprint, not slide decks.
               </li>
               <li className="positioning__trait positioning__trait--positive">
                 <span className="positioning__marker">&#10003;</span>
-                No equity, no 12-month contract - cancel anytime
+                No equity, no 12-month lock-in. Cancel anytime.
               </li>
             </ul>
             <a
@@ -73,19 +73,19 @@ export default function Positioning() {
             <ul className="positioning__traits">
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Senior sold the deal, juniors write your payment code
+                Senior sold the deal, juniors write your traceability code
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                $50K later, you get code that can&rsquo;t pass a PCI audit
+                &euro;50K later, you get a system that doesn&rsquo;t meet EU requirements
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                Zero understanding of settlement, reconciliation, or compliance
+                They&rsquo;ve never read the DPP regulation. They&rsquo;ll learn it on your budget and your timeline.
               </li>
               <li className="positioning__trait positioning__trait--negative">
                 <span className="positioning__marker">&times;</span>
-                They optimize for billable hours, not your transaction reliability
+                They optimize for billable hours, not your compliance deadline
               </li>
             </ul>
           </div>

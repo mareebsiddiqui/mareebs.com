@@ -1,11 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Positioning from "@/components/Positioning";
-import Evolution from "@/components/Evolution";
+import Services from "@/components/Services";
+import Process from "@/components/Process";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
-import Services from "@/components/Services";
+import FAQ from "@/components/FAQ";
+import Evolution from "@/components/Evolution";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import RevealOnScroll from "@/components/RevealOnScroll";
@@ -17,11 +19,13 @@ export default function Home() {
       <main>
         <Hero />
         <Positioning />
-        <Evolution />
+        <Services />
+        <Process />
         <Experience />
         <Testimonials />
         <Portfolio />
-        <Services />
+        <FAQ />
+        <Evolution />
         <Contact />
       </main>
       <Footer />
