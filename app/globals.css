@@ -1597,10 +1597,14 @@ footer {
 }
 
 .callout__text p {
-  margin-bottom: 0;
+  margin-bottom: 0.75rem;
   font-size: inherit;
   color: inherit;
   line-height: inherit;
+}
+
+.callout__text p:last-child {
+  margin-bottom: 0;
 }
 
 /* Bookmark */
