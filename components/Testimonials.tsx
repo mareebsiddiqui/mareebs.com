@@ -21,6 +21,12 @@ const testimonials = [
     name: "Mohammad Danish Siddiqui",
     role: "Senior Frontend Engineer at Intuit",
   },
+  {
+    quote:
+      "I've worked with Areeb on multiple projects across different scales, and his technical depth, insight, and problem-solving ability have consistently stood out. I fully trust his solutions and know they will always be thoughtful, reliable, and up to the mark.",
+    name: "Asad Memon",
+    role: "Senior Software Engineer at Google",
+  },
 ];
 
 export default function Testimonials() {
