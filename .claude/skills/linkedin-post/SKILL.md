@@ -31,11 +31,11 @@ Before and during generation, leverage these skills as needed:
 
 ## Content Pillars (pick the most relevant)
 
-1. **Transfer Stories** - Real stories from Securiti.ai/ByteCorp/Wise/Dubizzle/SWVL with explicit bridge to FashionTech/DPP. "I built X. Here's why your DPP system needs the same thing."
-2. **Myth-Busting** - Contrarian takes that challenge conventional startup wisdom
-3. **Frameworks & Playbooks** - Checklists, decision frameworks, interview questions
-4. **Architecture Breakdowns** - Explain how compliance/data/AI systems work in production using real experience, with explicit lesson for FashionTech
-5. **Founder Education** - Teach non-technical founders to ask the right questions
+1. **Transfer Story** - Real scenes from engineering work. The reader walks into a room where something went wrong. No forced bridge to FashionTech. The audience self-selects.
+2. **Myth-Busting** - Scene-led contrarian takes. Opens with a moment ("A founder told me..."), not a thesis.
+3. **Framework** - Patterns earned through repetition. "After seeing this 5 times, I made a checklist."
+4. **Architecture Breakdown** - What operating systems actually looks like. The quiet, unsexy truth of keeping things running.
+5. **Founder Education** - Honest truths non-technical founders need to hear. Scene-led, direct.
 
 ## Story & Example Rules (CRITICAL)
 
