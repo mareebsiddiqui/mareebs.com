@@ -75,7 +75,7 @@ Each opens with a moment — something a founder said, a scene that reveals the 
 39. A founder told me their agency "handles everything." I asked who gets paged when production goes down on a Saturday. Silence. Agencies build and leave. Nobody at the agency owns your 2am.
 40. "More developers means faster shipping." I've seen 10-person teams ship slower than 3-person teams. The constraint is never hands. It's direction. Adding developers without architecture is adding passengers to a car with no engine.
 41. "We can manage technical decisions by committee." Product, marketing, and ops all had opinions on the AI roadmap. Nobody understood the data dependencies. Decision by committee means decision by loudest voice.
-42. "A fractional CTO is just a consultant." A consultant writes a report and leaves. I inherit your production systems. I get paged when things break. I sit in standups. The accountability is different.
+42. A founder told me their agency "handles everything." I asked who gets paged when production goes down on a Saturday. Silence. Agencies build and leave. Nobody at the agency owns your 2am.
 43. "Technical leadership is expensive." You know what's more expensive? EUR 80K to an agency that builds something nobody can maintain, then EUR 80K again to fix it with someone who can.
 44. "We need senior engineers." A senior React developer and a senior compliance system architect solve completely different problems. "Senior" without context means nothing.
 45. "AI will replace the need for a CTO." AI builds faster. It does not make architectural decisions. It does not know your supplier relationships. It does not set up monitoring. It does not page someone at 2am when data goes stale.
@@ -129,7 +129,7 @@ Each framework earned through repetition. Opens with why it was needed.
 75. Every time I evaluate a technical hire for a founder, I ask the same 7 questions. The answers tell me in 15 minutes whether this person can build AND operate. Here's the scorecard.
 76. After seeing 5 agencies leave without documentation, I built a handoff checklist. 12 items that must exist before any external team finishes their contract.
 77. The "production readiness review" I use before any feature goes live: monitoring, alerting, runbook, owner, SLA, rollback plan. If anything is missing, it doesn't ship. Takes 2 hours. Prevents 2 weeks of firefighting.
-78. I made a decision tree for "do you need a fractional CTO, a tech lead, or an agency?" Five yes/no questions. Most founders are buying the wrong thing.
+78. A framework I use for evaluating any technical hire: can they explain what happens when their system breaks at 2am? If the answer is "it won't break," walk away.
 79. Every AI vendor says the same things in demos. Here are the 5 questions that separate the ones who can operate from the ones who just build.
 80. A framework I use for every startup I work with: the build-vs-buy matrix. Six criteria scored 1-5. Most founders over-build what they should buy and over-buy what they should build.
 81. After inheriting too many codebases with invisible risk, I built a quarterly technical debt assessment. 5 questions your team should answer every 3 months.
@@ -232,7 +232,7 @@ Honest truths for non-technical founders. Each opens with a question they've ask
 
 ### Pain A - No CTO for AI Infrastructure (9)
 
-145. "What does a fractional CTO actually do?" Three things: decide what to build vs buy, architect systems that scale, and make sure what you ship keeps working after everyone stops paying attention.
+145. "How do I know if my tech is healthy?" You don't need to read code. Check three things: is anything down right now, when did the last deploy happen, and what broke last. If nobody can answer the third one, nobody's watching.
 146. "How do I know if my developers are building the right thing?" Ask one question every sprint: "What breaks if this goes wrong, and how will we know?" If they can't answer, you have a monitoring gap.
 147. A founder asked me "should we build or buy?" I asked what their data looked like. She didn't know. The build-vs-buy question is always a data question first.
 148. "What's the difference between a CTO, a tech lead, and a senior developer?" Scope. A dev writes code. A tech lead makes team decisions. A CTO owns business outcomes through technology. Most brands hire one thinking they're getting the other.

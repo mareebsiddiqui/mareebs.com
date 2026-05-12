@@ -38,7 +38,7 @@ Start date: May 8, 2026 | Cadence: Daily (blog + LinkedIn + Twitter)
 
 - [ ] **Blog**: "Do I Need a CTO for My Fashion Brand? A Decision Framework" (Tier 1)
   - Keyword: do I need a CTO for my fashion brand | Type: Guide
-- [ ] **LinkedIn** [Founder Education] (Pain A): "What does a fractional CTO actually do?" Three things: decide what to build vs buy, architect systems that scale, and make sure what you ship keeps working after everyone stops paying attention.
+- [ ] **LinkedIn** [Founder Education] (Pain A): "How do I know if my tech is healthy?" You don't need to read code. Check three things: is anything down right now, when did the last deploy happen, and what broke last. If nobody can answer the third one, nobody's watching.
 - [ ] **Twitter** [Reframe] (Pain A): You don't need a CTO who can code. You need one who knows what happens at 2am when your systems break and nobody's watching.
 
 ### Day 6 - Tue May 13 | Pain C

@@ -135,6 +135,7 @@ What DOESN'T work:
 - Starting with "In today's world" or filler preamble
 - Generic advice without a personal story backing it
 - Self-promotion or CTAs (unless specifically asked)
+- **Any mention of "fractional CTO" as a service** (never pitch, never explain the role, never position Areeb's offering. Show expertise through stories, not service descriptions)
 - Em dashes (use commas or periods instead)
 - **Cost breakdowns as the core structure** (listing $X + $Y + $Z reads like a sales pitch, not a story)
 - **"Here's why X is actually Y" posts** (logical arguments without narrative don't get engagement)
